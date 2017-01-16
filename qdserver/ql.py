@@ -29,12 +29,12 @@ import traceback
 import gevent
 from collections import UserDict
 
-from curry.task import green
-from curry.typing import typeddict, enum, alias, from_json, to_json
-from curry.typing.specs import \
-    TypedDict, Dict, List, Alias, Enum, BasicType, Optional, MaybeNone
+from curry.typing import \
+    ( typeddict, from_json, to_json
+    , TypedDict, Dict, List, Alias, Enum, BasicType, Optional, MaybeNone
+    )
 
-from flask import Flask, request, jsonify, redirect
+from flask import request, jsonify, redirect
 
 def expect(value, type):
     if not isinstance(value, type):
@@ -387,6 +387,8 @@ def setup_routes(app, sockets, dispatcher, route):
         Request handler for web sockets
         """
         # TODO: Periodically restart dead feeds
+        import random
+        id = random.randrange(200)
 
         def kill(message_id):
             active_greenlets[message_id].kill(block=True)
@@ -399,6 +401,7 @@ def setup_routes(app, sockets, dispatcher, route):
             if message == b'':
                 continue
 
+            print("got something on connection:", id)
             # Parse message
             try:
                 message = message.decode('UTF-8')
@@ -428,8 +431,10 @@ def setup_routes(app, sockets, dispatcher, route):
                 def run_feed(ws, query, message_id):
                     feed = dispatcher.dispatch_feed(query)
                     for result in feed:
-                        print("Feed '%s' produced result" % (message_id,))
+                        print("Feed '%s' produced result on conn. %s" % (message_id, id))
                         ws_send(ws, message_id, result)
+                        if not ws.connected:
+                            break
 
                 if message_id in active_greenlets:
                     # Feed already exists, kill previous version

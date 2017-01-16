@@ -49,7 +49,7 @@ def test_update_bar_status_invalid_auth_token():
                 },
             },
             "result": {
-                "bar_status": BarStatusType,
+                "status": 'String',
             },
         },
         "expect": {
@@ -72,7 +72,7 @@ def test_update_bar_status_not_a_bar_owner():
                     }
                 },
                 "result": {
-                    "bar_status": BarStatusType,
+                    "status": 'String',
                 },
             },
             "expect": {
@@ -99,7 +99,7 @@ def test_bar_status_feed():
                         }
                     },
                     "result": {
-                        "bar_status": BarStatusType,
+                        "status": 'String',
                     },
                 }
             })
@@ -143,20 +143,22 @@ def update_bar_status(userID, barID):
                     }
                 },
                 "result": {
-                    "bar_status": BarStatusType,
+                    "status": 'String',
                 },
             },
             "expect": {
                 "result": {
-                    "bar_status": {
-                        "qdodger_bar":   True,
-                        "taking_orders": True,
-                        "table_service": 'Food',
-                        "pickup_locations": [
-                            {'name': 'Main Bar', 'open': False},
-                            {'name': 'First Floor', 'open': True},
-                        ],
-                    }
+                    "status": "OK",
                 },
             },
         })
+        # TODO: Test updated status result
+        # {
+        #     "qdodger_bar":   True,
+        #     "taking_orders": True,
+        #     "table_service": 'Food',
+        #     "pickup_locations": [
+        #         {'name': 'Main Bar', 'open': False},
+        #         {'name': 'First Floor', 'open': True},
+        #     ],
+        # }

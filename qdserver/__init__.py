@@ -1,7 +1,9 @@
 from flask import Flask
 
 # app = Flask(__name__) #, static_url_path='')
-domain = 'http://localhost'
+# domain = 'http://localhost'
+# domain = 'https://qdodger.com'
+domain = 'http://192.168.1.223'
 
 env = {
     'AUTH0_DOMAIN':        'tuppu.eu.auth0.com',

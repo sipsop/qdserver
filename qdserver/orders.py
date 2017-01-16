@@ -4,7 +4,7 @@ import datetime
 from qdserver import auth, model, ql, menu, messaging, profile
 from qdserver.common import ID, TimeStamp, UserName, Receipt, shortid
 from curry import fmap
-from curry.typing import typeddict, maybe_none, to_json
+from curry.typing import typeddict, maybe_none, to_json, optional
 
 import rethinkdb as r
 
@@ -131,7 +131,6 @@ class OrderStatus(ql.QuerySpec):
     def feed(cls, args, result_fields):
         userID = auth.validate_token(args['authToken'])
         orderID = args['orderID']
-        userID = auth.validate_token(args['authToken'])
         order_result_fields = result_fields['orderResult']
         with model.connect() as conn:
             changefeed = model.Orders           \
@@ -142,7 +141,7 @@ class OrderStatus(ql.QuerySpec):
                 order = result['new_val']
                 if order is None:
                     raise ValueError("Order not found!")
-                if order['userID'] != userID:
+                if order['userID'] != userID and not profile.is_bar_owner(userID, order['barID']):
                     raise ValueError("User does not own order")
                 order_result = OrderResult.query({'order': order}, order_result_fields)
                 yield OrderStatus.make({'orderResult': order_result})
@@ -172,17 +171,50 @@ class OrderHistory(ql.QuerySpec):
                                 for item in order_history],
         })
 
+class CompletedOrders(ql.QuerySpec):
+    args_spec = [
+        ('authToken',   str),
+        ('barID',       str),
+        ('before',      { 'completedTimestamp': optional(TimeStamp) }),
+    ]
+    result_spec = [
+        ('completedOrders', [OrderResult])
+    ]
+
+    @classmethod
+    def resolve(cls, args, result_fields):
+        userID = auth.validate_token(args['authToken'])
+        barID = args['barID']
+        if not profile.is_bar_owner(userID, barID):
+            raise ValueError("Not an admin for this bar")
+
+        query = model.Orders.filter({'barID': barID, 'completed': True})
+        if args['before']:
+            beforeTimestamp = r.epoch_time(args['before']['completedTimestamp'])
+            query = query.filter(
+                lambda order: order['completed_timestamp'].lt(beforeTimestamp)
+            )
+        query = query.order_by(r.desc('completed_timestamp')).limit(2)
+        result_fields = result_fields['completedOrders'][0]
+        return CompletedOrders.make({
+            'completedOrders': [
+                OrderResult.query({'order': order}, result_fields)
+                    for order in model.run(query)
+            ],
+        })
 
 class ActiveOrders(ql.QuerySpec):
     """
     Active orders for a bar.
     """
     args_spec = [
-        ('authToken',   str),
-        ('barID',       str),
+        ('authToken',       str),
+        ('barID',           str),
     ]
     result_spec = [
-        ('orderResult', OrderResult),
+        ('orderID',         str),
+        ('orderDeleted',    bool),
+        ('orderResult',     maybe_none(OrderResult.result_type)),
     ]
 
     @classmethod
@@ -193,17 +225,30 @@ class ActiveOrders(ql.QuerySpec):
             raise ValueError("Not an admin for this bar")
 
         with model.connect() as conn:
-            changefeed = model.Orders    \
+            changefeed = model.Orders           \
                 .filter({
                     'barID': barID,
                     'completed': False,
-                })          \
-                .changes()  \
+                })                              \
+                .changes(include_initial=True)  \
                 .run(conn)
             for result in changefeed:
                 order = result['new_val']
-                order_result = OrderResult.query({'order': order}, result_fields)
-                yield ActiveOrders.make({'orderResult': order_result})
+                if order is None:
+                    old_order = result['old_val']
+                    yield ActiveOrders.make({
+                        'orderID':      old_order['id'],
+                        'orderDeleted': True,
+                        'orderResult':  None,
+                    })
+                else:
+                    order_result_fields = result_fields['orderResult']
+                    order_result = OrderResult.query({'order': order}, order_result_fields)
+                    yield ActiveOrders.make({
+                        'orderID':      order['id'],
+                        'orderDeleted': False,
+                        'orderResult':  order_result,
+                    })
 
 #=========================================================================#
 # Mutations
@@ -237,7 +282,7 @@ class PlaceOrder(ql.QuerySpec):
         currency    = args['currency']
         price       = args['price']
         tip         = args['tip']
-        orderList   = args['orderList']
+        orderList   = compress_order_list(args['orderList'])
         receipt     = shortid()
         totalAmount = sum(orderItem['amount'] for orderItem in orderList)
 
@@ -301,7 +346,6 @@ class RefundOrder(ql.QuerySpec):
     args_spec = [
         # Auth token from bar
         ('authToken', str),
-        ('barID',     str),
         ('orderID',   str),
         ('refundItems', [model.RefundOrderItem]),
         ('reason',    maybe_none(str))
@@ -312,18 +356,15 @@ class RefundOrder(ql.QuerySpec):
 
     @classmethod
     def resolve(cls, args, result_fields):
-        now     = datetime.datetime.utcnow()
-        userID  = auth.validate_token(args['authToken'])
-        barID   = args['barID']
+        now = datetime.datetime.utcnow()
+        barAdminID  = auth.validate_token(args['authToken'])
         orderID = args['orderID']
 
-        if not profile.is_bar_owner(userID, barID):
-            raise ValueError("Not an administrator for this bar")
         order = model.run(model.Orders.get(orderID))
+        if not profile.is_bar_owner(barAdminID, order['barID']):
+            raise ValueError("Not an administrator for this bar")
         if order is None:
             raise ValueError("Order not found")
-        if order['barID'] != barID:
-            raise ValueError("Bar ID does not match bar ID of order!")
 
         # Verify that the refunded amount does not exceed the total amount
         refund = {
@@ -346,7 +387,7 @@ class RefundOrder(ql.QuerySpec):
             completed_timestamp = order['completed_timestamp']
         else:
             completed = total_amount == 0
-            completed_timestamp = now.timestamp() if completed else None
+            completed_timestamp = r.epoch_time(now.timestamp()) if completed else None
 
         # Record refund as part of Order
         model.run(
@@ -358,6 +399,17 @@ class RefundOrder(ql.QuerySpec):
                     'completed':   completed,
                     'completed_timestamp': completed_timestamp,
                 })
+        )
+
+        messaging.send_message(
+            order['userID'],
+            message = messaging.Message({
+                'title':     'Some items were refunded...',
+                'content':   args['reason'],
+                'timestamp': now.timestamp(),
+                'priority':  'high',
+            }),
+            media = ['Push', 'InApp'],
         )
 
         return RefundOrder.make({
@@ -437,15 +489,32 @@ def validate_order_list(order_list : [model.OrderItem], refunds : [model.Refund]
             else:
                 raise ValueError("Refunded order item not found...")
 
+def compress_order_list(order_list : [model.OrderItem]) -> [model.OrderItem]:
+    """
+    De-duplicate order items list by grouping items with the same options.
+    """
+    d = {}
+    result = []
+    for order_item in order_list:
+        options = tuple(tuple(opts) for opts in order_item['selectedOptions'])
+        key = (order_item['menuItemID'], options)
+        if key in d:
+            d[key]['amount'] += order_item['amount']
+        else:
+            d[key] = order_item
+            result.append(dict(order_item))
+
+    return result
 
 def find_item(menuItemID : ID):
     [item] = [item for item in menu.items if item['id'] == menuItemID]
     return item
 
 def convert_refund(refund : model.Refund) -> Refund:
-    return dict(refund, {
-        'timestamp': refund['timestamp'].timestamp(),
-    })
+    return dict(
+        refund,
+        timestamp=refund['timestamp'].timestamp(),
+    )
 
 #=========================================================================#
 # Register
@@ -455,5 +524,7 @@ def register(dispatcher):
     dispatcher.register(PlaceOrder)
     dispatcher.register(OrderStatus)
     dispatcher.register(OrderHistory)
+    dispatcher.register(ActiveOrders)
+    dispatcher.register(CompletedOrders)
     dispatcher.register(CompleteOrder)
     dispatcher.register(RefundOrder)

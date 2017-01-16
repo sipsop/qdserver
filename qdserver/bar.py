@@ -104,7 +104,7 @@ class UpdateBarStatus(ql.QuerySpec):
         ('authToken',     str)
     ]
     result_spec = [
-        ('bar_status', BarStatusResult),
+        ('status', str),
     ]
 
     @classmethod
@@ -130,18 +130,7 @@ class UpdateBarStatus(ql.QuerySpec):
 
         if 'AddBar' in status_update:
             command = status_update['AddBar']
-            model.run(
-                model.Bars.get(barID).update(
-                    model.BarStatus({
-                        'pickup_locations': {
-                            command['name']: {
-                                'open': False,
-                                'list_position': command['listPosition'],
-                            },
-                        }
-                    })
-                )
-            )
+            add_pickup_location(barID, command['name'], command['listPosition'])
 
         if 'SetBarOpen' in status_update:
             command = status_update['SetBarOpen']
@@ -157,9 +146,7 @@ class UpdateBarStatus(ql.QuerySpec):
                 )
             )
 
-        return UpdateBarStatus.make(
-            BarStatus.query({'barID': barID}, result_fields)
-        )
+        return UpdateBarStatus.make(status='OK')
 
 
 class QDodgerPubs(ql.QuerySpec):
@@ -191,6 +178,30 @@ def add_qdodger_bar(barID):
                         'list_position': 0,
                     }
                 },
+            })
+        )
+    )
+
+
+def add_pickup_locations(barID, pickup_locations):
+    """Add the given pickup locations to the bar"""
+    bar_status = model.run(model.Bars.get(barID))
+    assert bar_status is not None, barID
+    bar_status = make_bar_status(bar_status)
+    list_position_offset = len(bar_status['bar_status']['pickup_locations'])
+    for i, pickup_location in enumerate(pickup_locations):
+        add_pickup_location(barID, pickup_location, list_position_offset + i)
+
+def add_pickup_location(barID, pickup_location, list_position):
+    model.run(
+        model.Bars.get(barID).update(
+            model.BarStatus({
+                'pickup_locations': {
+                    pickup_location: {
+                        'open': False,
+                        'list_position': list_position,
+                    },
+                }
             })
         )
     )

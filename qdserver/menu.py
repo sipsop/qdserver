@@ -1,13 +1,11 @@
 import random
-from qdserver import model, ql
+from qdserver import model, ql, domain
 from qdserver.common import ID
 from curry.typing import URL
 
 #=========================================================================#
 # Menu Item Definitions
 #=========================================================================#
-
-items = model.get_item_defs() # [model.MenuItemDef]
 
 class SubMenu(ql.QuerySpec):
     result_spec = [
@@ -41,49 +39,41 @@ def makeMenu(barID):
         barID=barID,
         beer=SubMenu.make(
             image=beer,
-            menuItems=[model.MenuItemDef(**item) for item in items if '#beer' in item['tags']],
+            menuItems=[model.MenuItemDef(**item) for item in get_items() if '#beer' in item['tags']],
         ),
         wine=SubMenu.make(
             image=wine,
-            menuItems=[model.MenuItemDef(**item) for item in items if '#wine' in item['tags']],
+            menuItems=[model.MenuItemDef(**item) for item in get_items() if '#wine' in item['tags']],
         ),
         spirits=SubMenu.make(
             image=spirits,
-            menuItems=[model.MenuItemDef(**item) for item in items if '#spirit' in item['tags']],
+            menuItems=[model.MenuItemDef(**item) for item in get_items() if '#spirit' in item['tags']],
         ),
         cocktails=SubMenu.make(
             image=cocktails,
-            menuItems=[model.MenuItemDef(**item) for item in items if '#cocktail' in item['tags']],
+            menuItems=[model.MenuItemDef(**item) for item in get_items() if '#cocktail' in item['tags']],
         ),
         water=SubMenu.make(
             image=water,
-            menuItems=[model.MenuItemDef(**item) for item in items if '#water' in item['tags']],
+            menuItems=[model.MenuItemDef(**item) for item in get_items() if '#water' in item['tags']],
         ),
         snacks=SubMenu.make(
             image=snacks,
-            menuItems=[model.MenuItemDef(**item) for item in items if '#snack' in item['tags']],
+            menuItems=[model.MenuItemDef(**item) for item in get_items() if '#snack' in item['tags']],
         ),
         food=SubMenu.make(
             image=food,
-            menuItems=[model.MenuItemDef(**item) for item in items if '#food' in item['tags']],
+            menuItems=[model.MenuItemDef(**item) for item in get_items() if '#food' in item['tags']],
         ),
     )
 
-beer      = "https://qdodger.com/static/beer1-medium.jpg"
-wine      = "https://qdodger.com/static/wine1-medium.jpg"
-spirits   = "https://qdodger.com/static/spirit1-medium.jpg"
-cocktails = "https://qdodger.com/static/cocktails1-medium.jpg"
-water     = "https://qdodger.com/static/water-medium.jpg"
-food      = "https://qdodger.com/static/food1-medium.jpg"
-snacks    = "https://qdodger.com/static/snacks1-medium.jpg"
-
-# beer = "http://www.menshealth.com/sites/menshealth.com/files/styles/slideshow-desktop/public/images/slideshow2/beer-intro.jpg?itok=hhBQBwWj"
-# wine = "https://employee.foxandhound.com/Portals/0/images/slideshow/wine-pour-slide2.jpg"
-# spirits = "https://biotechinasia.files.wordpress.com/2015/10/two-whisky-glasses.jpg"
-# cocktails = "http://notable.ca/wp-content/uploads/2015/06/canada-day-cocktails.jpg"
-# water = "http://arogyam.zest.md/uploads/gallery/df4fe8a8bcd5c95cdb640aa9793bb32b/images/201212042159565.jpg"
-# snacks = "http://www.nibblers.org.uk/slideshow/images/slide-1.jpg"
-# food = "https://static.mgmresorts.com/content/dam/MGM/mgm-grand/dining/michael-mina-pub-1842/food-and-drink/mgm-grand-restaurant-michael-mina-pub-1842-specialty-dish-michael-mina-burger-@2x.jpg.image.600.600.high.jpg"
+beer      = domain + "/static/beer1-medium.jpg"
+wine      = domain + "/static/wine1-medium.jpg"
+spirits   = domain + "/static/spirit1-medium.jpg"
+cocktails = domain + "/static/cocktails1-medium.jpg"
+water     = domain + "/static/water-medium.jpg"
+food      = domain + "/static/food1-medium.jpg"
+snacks    = domain + "/static/snacks1-medium.jpg"
 
 #=========================================================================#
 # Menu Options
@@ -187,7 +177,7 @@ def generate_prices(lower, upper):
     return [pounds(price, option=model.PriceOption.Absolute) for price in prices]
 
 
-def update_items():
+def update_items(items):
     for item in items:
         if '#beer' in item['tags']:
             price1, price2 = generate_decreasing([220, 170], 650)
@@ -209,10 +199,14 @@ def update_items():
             item['price'] = pounds(0)
             item['options'] = []
 
+items = None
 
-# import time; t = time.time()
-update_items()
-# print("Updating items took", time.time() - t, "seconds.")
+def get_items():
+    global items
+    if items is None:
+        items = model.get_item_defs() # [model.MenuItemDef]
+        update_items(items)
+    return items
 
 #=========================================================================#
 # Dispatch

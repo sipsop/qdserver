@@ -7,19 +7,21 @@ from curry.task import ConnectionPool
 # Tables
 #===------------------------------------------------------------------===
 
-def connect():
-    host = 'gcp-europe-west1-cpu.0.dblayer.com'
-    port = 15170
-    username = 'admin'
-    pwd = 'kpghpkNAwRYMf8140OEkQBGwL0fUrcboeZcUxHG28us'
-    # pwd = 'XbH4a4.@/D,WzdJ)pE(fkDu)d2[g$De[}Ze4ExSPN5y(!*_7Eh'
-    return r.connect(
-        host=host,
-        port=port,
-        user=username,
-        password=pwd,
-        ssl={'ca_certs': 'rethink.crt'},
-        )
+# def connect():
+#     host = 'gcp-europe-west1-cpu.0.dblayer.com'
+#     port = 15170
+#     username = 'admin'
+#     pwd = 'kpghpkNAwRYMf8140OEkQBGwL0fUrcboeZcUxHG28us'
+#     # pwd = 'XbH4a4.@/D,WzdJ)pE(fkDu)d2[g$De[}Ze4ExSPN5y(!*_7Eh'
+#     return r.connect(
+#         host=host,
+#         port=port,
+#         user=username,
+#         password=pwd,
+#         ssl={'ca_certs': 'rethink.crt'},
+#         )
+
+connect = r.connect
 
 def make_pool(connect):
     "Create a Greenlet-based connection pool"

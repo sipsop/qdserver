@@ -80,7 +80,6 @@ def add_bar_owner(userID, barIDs):
     profile = dict(profile, id=userID)
     model.run(model.UserProfiles.insert(profile))
 
-
 def is_bar_owner(userID, barID) -> bool:
     """See if `userID` is an owner of bar `barID`"""
     profile = model.run(model.UserProfiles.get(userID))

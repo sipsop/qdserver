@@ -16,6 +16,9 @@ sockets = None
 sockets = GeventWebSocket(app)
 setup_routes(app, sockets, dev=dev)
 
+import qdweb.routes
+qdweb.routes.setup_routes(app)
+
 if __name__ == '__main__':
     import qdweb.routes
     qdweb.routes.setup_routes(app)

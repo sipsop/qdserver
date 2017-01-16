@@ -1,0 +1,12 @@
+[Unit]
+Description=uWSGI instance to serve qdserver
+After=network.target
+
+[Service]
+User=www-data
+Group=www-data
+WorkingDirectory=/var/www/qdserver/
+ExecStart=/usr/local/bin/uwsgi <% @params.each_pair do | param, val | %> --<%= param %> <%= val %> <% end %>
+
+[Install]
+WantedBy=multi-user.target

@@ -5,13 +5,7 @@ import websocket
 # ws.connect("ws://localhost:9000/api/v1/websocket")
 
 # URL = "wss://localhost:9000/api/v1/websocket/"
-frontendURL = "ws://104.199.81.246:8080/api/v1/websocket/"
-backendURL  = "ws://192.168.2.2:9000/api/v1/websocket/"
-backendURL  = "ws://192.168.1.223/api/v1/websocket/"
-# backendURL  = "ws://localhost/api/v1/websocket/"
-# backendURL2 = "wss://104.199.12.19:8081/api/v1/websocket/"
-# backendURL3 = "wss://api.qdodger.com:8081/api/v1/websocket/"
-URL = backendURL
+URL = "ws://localhost/api/v1/websocket/"
 # URL = "ws://localhost/echo"
 # ws = websocket.create_connection(URL)
 

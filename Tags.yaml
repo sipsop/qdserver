@@ -1,0 +1,108 @@
+tags:
+    groups:
+        ### Beer
+        categories: |
+            #beer
+            #wine
+            #spirit
+            #cocktail
+            #water
+            #snack
+            #food
+
+        beerCategories: |
+            #ale
+            #lager
+            #cider
+            #specialty
+
+        beerOnTap: |
+            #tap
+
+        beerOptions: |
+            #pale
+            #dark
+
+        ales: |
+            #IPA
+            #stout
+            #pale
+            #wheat
+            #porter
+            #belgian
+            #sour
+
+        lagers: |
+            #pale
+            #dark
+            #pilsner
+            #schwarzbier
+            #dunkel
+            #helles
+            #americanLight
+            #indiaPale
+            #maibock
+            #doppelbock
+            #hellesbock
+            #eisbock
+
+        specialties: |
+            #amber
+            #scotchAle
+            #herbs
+            #smoked
+            #holiday
+            #marzen
+            #vienna
+
+        ### Wine
+
+        wineCategories: |
+            #red
+            #white
+            #rose
+            #sparkling
+
+        ### spirits
+
+        spiritCategories: |
+            #whisky
+            #vodka
+            #gin
+            #rum
+            #brandy
+            #cognac
+            #tequila
+            #vermouth
+            #aperitif
+            #liqueur
+            #alcopop
+            #sherry
+            #port
+
+        whiskyCategories: |
+            #malt
+            #blended
+            #bourbon
+            #irish
+
+        liqueurCategories: |
+            #cream
+            #flavoured
+            #schnapps
+
+    edges:
+        roots: categories
+
+        beer: |
+            beerOnTap
+            beerCategories
+
+        ale: ales
+        lager: lagers
+        specialty: specialties
+
+        wine: wineCategories
+        spirit: spiritCategories
+        whisky: whiskyCategories
+        liqueur: liqueurCategories

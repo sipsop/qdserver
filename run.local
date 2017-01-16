@@ -1,0 +1,9 @@
+#!/bin/bash
+export PYTHONPATH="/home/mark/qdserver:/home/mark/curry:$PYTHONPATH"
+
+
+# python create_tables.py &&
+sudo env PATH=$PATH PYTHONPATH=$PYTHONPATH bash -c '
+    sudo service nginx stop && \
+    /usr/local/bin/uwsgi --ini server.local.ini -w main:app \
+'

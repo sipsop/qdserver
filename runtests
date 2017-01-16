@@ -1,0 +1,4 @@
+#!/bin/bash
+
+python create_tables.py --test && \
+py.test

@@ -1,0 +1,13 @@
+#!/bin/bash
+export PYTHONPATH="/home/mark/qdserver:/home/mark/curry:$PYTHONPATH"
+
+[ ! -e /etc/ssl/certs/dhparam.pem ] && sudo openssl dhparam -out /etc/ssl/certs/dhparam.pem 2048
+
+python create_tables.py             && \
+sudo env PATH=$PATH PYTHONPATH=$PYTHONPATH bash -c '
+    # cp nginx.conf /etc/nginx/nginx.conf && \
+    # service nginx start                 && \
+    # service nginx reload                && \
+    sudo service nginx stop               && \
+    /usr/local/bin/uwsgi --ini server.ini -w main:app
+'

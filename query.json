@@ -1,0 +1,11 @@
+{
+    "Temperature": {
+        "args": {
+            "when": 1000.0
+        },
+        "result": {
+            "timestamp": "String",
+            "celcius": "Float"
+        }
+    }
+}

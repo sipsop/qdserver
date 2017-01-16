@@ -1,0 +1,5455 @@
+drinks:
+
+    ### pale lagers and pilsners
+
+    kingsParade:
+        name: Kings Parade
+        desc: This beer is from Cambridge Brew House.
+        abv: 3.6%
+        ibu:
+        image:
+        licence:
+        tags: |
+            #beer
+            #lager
+            #pale
+            #paleLager
+            #traditional
+            #best
+            #bitter
+
+
+    carling:
+        name: Carling
+        desc:
+        abv: 4%
+        ibu:
+        image: http://image.shutterstock.com/z/stock-photo-england-london-november-beermats-from-carling-beer-carling-brewery-was-founded-in-232582486.jpg
+        licence:
+        tags: |
+            #beer
+            #lager
+            #pale
+            #palelager
+
+    carling:
+        name: Carling
+        desc:
+        abv: 4%
+        ibu:
+        image: http://image.shutterstock.com/z/stock-photo-england-london-november-beermats-from-carling-beer-carling-brewery-was-founded-in-232582486.jpg
+        licence:
+        tags: |
+            #beer
+            #lager
+            #pale
+            #palelager
+
+    sanMiguel:
+          name: San Miguel
+          desc:
+          abv: 5%
+          image: http://image.shutterstock.com/z/stock-photo-circa-march-berlin-the-logo-of-the-brand-san-miguel-berlin-188080880.jpg
+          licence:
+          tags: |
+              #beer
+              #pale
+              #paleLager
+              #lager
+
+
+
+    germanHelles:
+        name: German Helles
+        desc: It is a tradional German full-bodied lager beer which is mildly sweet, light-coulred with low bitterness.
+        abv: 4.5% to 6%
+        image: http://image.shutterstock.com/z/stock-photo-tall-glass-of-beer-on-bar-counter-with-blurred-background-222387223.jpg
+        licence: h
+        tags: |
+            #beer
+            #lager
+            #pale
+            #paleLager
+            #brightgold
+            #lesshoppy
+            #fullbodied
+            #lowbitter
+
+    germanPilsner:
+        name: German Pilsner
+        desc: German Pilsner is a light pale lager with a distinct flavour and hop aroma.
+        abv: 4.5% to 5%
+        image: http://image.shutterstock.com/z/stock-photo-beer-glass-beer-barrels-hops-wheat-grain-barley-and-malt-404485444.jpg
+        licence:
+        tags: |
+            #beer
+            #lager
+            #paleLager
+            #pale
+            #palegold
+            #malt
+            #mediumhop
+            #fish
+            #spicy
+
+    czechBohemianPilsner:
+        name: Czech or Bohemian Pilsner
+        desc: It is a crystal clear, light straw to golden colour beer which has a distinct flavour with a spicy bitterness and floral flavours or aromas.
+        abv: 4.5% to 5.5%
+        image: http://image.shutterstock.com/z/stock-photo-glass-beer-on-wood-background-with-copyspace-89182822.jpg
+        licence:
+        tags: |
+            #beer
+            #lager
+            #pale
+            #paleLager
+            #bitterhop
+            #strawcolour
+            #floralaroma
+            #floralflavour
+            #smooth
+            #crisp
+            #spicyfood
+
+    birraMoretti:
+        name: Birra Moretti
+        desc: This is a pleasant beer with slight bitter flavour.
+        abv: 4.6%
+        image: http://image.shutterstock.com/z/stock-photo-bucharest-romania-august-bottle-of-birra-moretti-premium-lager-beer-birra-moretti-is-303255833.jpg
+        licence: sh
+        tags: |
+            #paleLager
+            #lager
+            #pale
+            #beer
+            #pleasant
+            #slightbitter
+
+    heineken:
+        name: Heineken
+        desc: Heineken is a pale lager from the Netherlands.
+        abv:
+        image: https://pixabay.com/en/beer-father-s-day-drink-refreshment-210197/
+        licence: https://pixabay.com/en/blog/posts/public-domain-images-what-is-allowed-and-what-is-4/
+        tags: |
+            #beer
+            #lager
+            #paleLager
+            #pale
+            #hops
+
+    staropramen:
+        name: Staropramen
+        desc:
+        abv: 5%
+        image: http://image.shutterstock.com/z/stock-photo-poznan-poland-june-staropramen-is-the-flagship-product-of-staropramen-brewery-the-443198419.jpg
+        licence:
+        tags: |
+            #beer
+            #lager
+            #paleLager
+            #pale
+            #hops
+            #premium
+            #pilsner
+
+    stellaArtois:
+        name: Stella Artois
+        desc: American style premium pale lager.
+        image: http://image.shutterstock.com/z/stock-photo-nottingham-uk-january-bottle-of-stella-artois-abv-lager-beer-stella-was-361456016.jpg
+        licence:
+        abv: 4.8% to 5.2%
+        tags: |
+            #bestsellingbeer
+            #lager
+            #beer
+            #pale
+            #paleLager
+            #LowMalt
+
+    threeHop:
+        name: Three Hop
+        desc:
+        image: http://image.shutterstock.com/z/stock-photo-glass-beer-on-wood-background-with-copyspace-89182822.jpg
+        licence:
+        abv: 4.5%
+        tags: |
+            #lager
+            #beer
+            #pale
+            #paleLager
+            #LowMalt
+
+    kronenbourg1664:
+        name: Kronenbourg 1664
+        desc: Premium lager.
+        image: http://image.shutterstock.com/z/stock-photo-poznan-poland-may-kronenbourg-a-pale-lager-is-the-main-brand-of-kronenbourg-425693953.jpg
+        licence:
+        abv: 5.0%
+        tags: |
+            #lager
+            #pale
+            #paleLager
+            #beer
+
+    tennentO:
+        name: Tennent's
+        desc:
+        abv: 5%
+        ibu:
+        image: http://image.shutterstock.com/z/stock-photo-london-uk-december-beermat-of-british-beer-tennents-238032829.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #pale
+            #paleLager
+
+
+    carlsberg:
+        name: Carlsberg
+        desc:
+        abv: 5%
+        image: http://image.shutterstock.com/z/stock-photo-krabi-thailand-june-can-of-carlsberg-beer-with-ocean-background-452364466.jpg
+        licence:
+        tags: |
+            #beer
+            #lager
+            #pale
+            #paleLager
+
+    corona:
+        name: Corona
+        desc:
+        abv: 4.5%
+        image:  http://image.shutterstock.com/z/stock-photo-poznan-poland-april-corona-extra-one-of-the-top-selling-beers-worldwide-is-a-pale-410385766.jpg
+        licence:
+        tags: |
+            #beer
+            #lager
+            #pale
+            #paleLager
+
+    amstel:
+        name: Amstel
+        desc:
+        abv: 4.1%
+        image: http://image.shutterstock.com/z/stock-photo-january-berlin-the-logo-of-the-brand-amstel-beer-182714150.jpg
+        licence:
+        tags: |
+            #beer
+            #lager
+            #pale
+            #paleLager
+            #pilsnermalt
+
+    peroni:
+        name: Peroni
+        desc:
+        abv: 5.1%
+        image: http://image.shutterstock.com/z/stock-photo-irvine-ca-january-a-single-bottle-of-peroni-beer-on-a-bed-of-ice-founded-n-the-town-245102419.jpg
+        licence:
+        tags: |
+            #beer
+            #lager
+            #pale
+            #paleLager
+            #crisp
+            #refreshing
+            #italianStyle
+            #pilsner
+
+    budweiser:
+        name: Budweiser
+        desc:
+        abv: 4.8%
+        image: http://image.shutterstock.com/z/stock-photo-reading-england-may-a-single-bottle-of-budweiser-on-the-wooden-table-and-brick-wall-280665248.jpg
+        licence:
+        tags: |
+            #beer
+            #lager
+            #pale
+            #paleLager
+            #smooth
+            #largestSellingBeer
+            #pilsner
+
+    StPauli:
+        name: St. Pauli Girl
+        desc:
+        abv: 4.9%
+        image: http://image.shutterstock.com/z/stock-photo-irvine-ca-january-a-bottle-of-st-pauli-girl-beer-on-ice-the-brand-gets-its-name-for-243809584.jpg
+        licence:
+        tags: |
+            #beer
+            #lager
+            #pale
+            #paleLager
+            #pilsner
+
+    beckBlue:
+        name: Beck Blue
+        desc:
+        abv: Alcohol Free
+        image: http://image.shutterstock.com/z/stock-photo-november-berlin-logo-electronic-sign-for-the-german-beer-brewery-becks-berlin-166512842.jpg
+        licence:
+        tags: |
+            #beer
+            #lager
+            #pale
+            #paleLager
+            #crisp
+            #refreshing
+            #alcoholFree
+
+    amstelLight:
+        name: Amstel Light
+        desc:
+        abv: 3.5%
+        image: http://image.shutterstock.com/z/stock-photo-irvine-ca-august-a-bottle-of-amstel-light-on-a-bed-of-ice-founded-in-it-was-474304921.jpg
+        licence:
+        tags: |
+            #beer
+            #lager
+            #pale
+            #paleLager
+
+    # darkLager:
+
+    amberAmericanLager:
+        name: Amber American Lager
+        desc: Amber American Lager are known for its sweet, creamy malt flavours with moderate hop aromas due to caramel malts.
+        abv: 4.8% to 5.4%
+        image: http://image.shutterstock.com/z/stock-photo-white-kitchen-interior-and-golden-beer-429335047.jpg
+        licence:
+        tags: |
+            #beer
+            #lager
+            #dark
+            #darkLager
+            #amber
+            #maltflavour
+            #caramel
+            #hoppy
+            #caramelaroma
+            #smooth
+            #dark
+
+    oktoberfest:
+        name: Oktoberfest or Marzen
+        desc: Oktoberfest is a full-bodied, toasty, balanced in sweet taste and a dark copper coloured dark lager beer
+        abv: 5% to 6%
+        image: http://image.shutterstock.com/z/stock-photo-still-life-old-wooden-pin-of-beer-glass-of-beer-and-wheat-on-the-table-in-the-cellar-321454256.jpg
+        licence:
+        tags: |
+            #beer
+            #lager
+            #darkLager
+            #dark
+            #toasty
+            #hoppy
+            #darkcopper
+            #fullbodied
+            #oktoberfest
+
+    germanSchwarzbier:
+        name: Gemran Schwarzbier
+        desc: This beer has an opaque, black or brown colour with hints of either coffee or chocolate flavour and produced in Germany.
+        abv: 4.4% to 5.4%
+        image: http://image.shutterstock.com/z/stock-photo-black-beer-in-the-garden-287365760.jpg
+        licence:
+        tags: |
+            #beer
+            #lager
+            #dark
+            #darkLager
+            #darkincolour
+            #hintofcoffee
+            #hintofchocolate
+            #black
+            #brown
+            #malt
+            #darkincolour
+
+    viennaLager:
+        name: Vienna Lager
+        desc: Vienna Lager has light malt sweetness and is a medium bodied with reddish-amber or copper colour. This type of beer is more famous in North America.
+        abv: 4.7% to 5.5%
+        image: http://image.shutterstock.com/z/stock-photo-glasses-of-beer-on-wooden-table-135256061.jpg
+        licence:
+        tags: |
+            #beer
+            #lager
+            #dark
+            #darkLager
+            #reddishincolour
+            ##sweet
+            #maltyflavour
+            #hoppy
+            #crisp
+            #mediumbodied
+
+
+    rockBottom:
+        name: Rock Buttom Cask Conditioned Bourbon Chocolate Oatmeal Lager
+        desc: Beer with a rather long name...
+        image: http://image.shutterstock.com/z/stock-photo-beer-glass-on-dark-background-489816814.jpg
+        licence:
+        tags: |
+            #beer
+            #lager
+            #dark
+            #darklager
+
+    ##german Bock
+
+    traditionalBock:
+        name: Traditional Bock
+        desc: Tradional Bock is a strong and dark Gemran lager.
+        abv: 6.3% to 7.2%
+        image: http://image.shutterstock.com/z/stock-photo-dark-beer-in-a-glass-on-a-dark-wooden-background-savory-cookies-beer-foam-snack-to-beer-446649034.jpg
+        licence:
+        tags: |
+            #beer
+            #lager
+            #dark
+            #germanBock
+            #malty
+            #sweet
+            #toasty
+            #darkcoppercolour
+            #smooth
+            #rich
+            #toasty
+
+    doppelbock:
+        name: Doppelbock
+        desc: Doppelbock is German Bock lager with a strong, clear, dark and malty with very little bitterness.
+        abv: 7% to 10%
+        image: http://image.shutterstock.com/z/stock-photo-glass-of-beer-on-dark-wooden-background-341866175.jpg
+        licence:
+        tags: |
+            #beer
+            #lager
+            #germanBoc
+            #fullbodied
+            #strong
+            #dark
+            #clear
+            #malt
+            #softbody
+            #GermanNobleHops
+
+    weizenbock:
+        name: Weizenbock
+        desc: It is a full-bodied, rich and malty beer which has pale to amber colour and it varies depending on malt's colour.
+        abv: 6.5% to 9%
+        image: http://image.shutterstock.com/z/stock-photo-glass-of-beer-on-a-brown-wooden-background-220032574.jpg
+        licence:
+        tags: |
+            #beer
+            #lager
+            #dark
+            #germanBock
+            #fruity
+            #malty
+            #wheatBocks
+            #fullbodied
+            #amber
+            #pale
+            #slightlyspicy
+            #cloveflavour
+
+    maibock:
+        name: Maibock
+        desc: Maibock is a strong lager of German origin which has hoppy aromas and is golden in colour with a refreshing finish.
+        abv: 6.3% to 7.4%
+        image: http://image.shutterstock.com/z/stock-photo-beer-glass-and-beer-barrel-with-hops-wheat-grain-barley-and-malt-367201619.jpg
+        licence:
+        tags: |
+            #beer
+            #lager
+            #germanBock
+            #pale
+            #hoppy
+            #malty
+            #hopbitternesslow
+            #toasted
+            #breadymalt
+            #germanNobleHops
+            #bitter
+
+###ale
+
+    ##brownAle
+
+    americanBrownAle:
+        name: American Brown Ale
+        desc: It is a medium to full-bodied, deep copper to very dark brown and clear brown ale which is drier than english brown ale.
+        abv: 4.3% to 6.2%
+        ibu: 20-30
+        image: http://image.shutterstock.com/z/stock-photo-glass-of-beer-and-bottle-on-wood-table-429236359.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #brown
+            #brownale
+            #dark
+            #malt
+            #roastedmalt
+            #chocolate
+            #caramel
+            #dry
+            #citrus
+            #toasty
+
+    englishBrownAle:
+        name: English Brown Ale
+        desc: English Brown Ale varies depending either if it is from northeastern England then it is strong, malty and nutty and from southern England it is darker, sweeter and low in alcohol.
+        abv: 4.2% to 5.4%
+        ibu: 20-30
+        image: http://image.shutterstock.com/z/stock-photo-dark-beer-and-candle-in-pub-setting-235737934.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #brownale
+            #brwon
+            #nutty
+            #malt
+            #caramel
+            #strong
+
+    ruddlesCounty:
+        name: Ruddles County
+        desc:
+        abv: 4.3%
+        ibu:
+        image: http://image.shutterstock.com/z/stock-photo-beer-tap-array-122549425.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #brown
+            #bitterstyle
+            #englishale
+            #traditional
+
+    beck:
+        name: Beck's
+        desc:
+        abv: 4.5%
+        ibu:
+        image: http://image.shutterstock.com/z/stock-photo-poznan-poland-april-beck-s-is-the-world-s-best-selling-german-beer-produced-by-beck-s-410386639.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #brown
+            #brownale
+
+    oldSpeckledHen:
+        name: Old Speckled Hen
+        desc:
+        abv: 5%
+        ibu:
+        image: http://image.shutterstock.com/z/stock-photo-swindon-uk-april-bottle-of-old-speckled-hen-strong-ale-on-a-white-background-185515574.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #brown
+            #brownale
+            #craft
+
+
+    ##paleAle
+
+    honeyBeer:
+        name: Honey Beer
+        desc: This beer is from Cambridge Brew House.
+        abv: 5.0%
+        ibu:
+        image: http://image.shutterstock.com/z/stock-photo-right-honest-czech-draft-beer-a-lager-in-a-glass-on-a-wooden-background-glass-of-beer-307605941.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #pale
+            #paleale
+            #golden
+
+    AmericanAmberAle:
+        name: American Amber Ale
+        desc: It is a medium bodied malty beer with caramel flavour.
+        abv: 4.5% to 6.2%
+        ibu: 25-40
+        image: http://image.shutterstock.com/z/stock-photo-craft-beer-in-the-glass-353750366.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #pale
+            #paleale
+            #malty
+            #caramel
+            #amber
+
+    americanPaleAle:
+        name: American Pale Ale
+        desc: This style of pale ale is produced in America.
+        abv: 4.5% to 6.2%
+        ibu: 30-50
+        image: http://image.shutterstock.com/z/stock-photo-glass-of-light-beer-on-a-dark-pub-120711982.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #pale
+            #paleale
+            #hoppy
+            #lightcoppercolour
+            #palegold
+            #lightamber
+
+    blondeAle:
+        name: Blonde Ale
+        desc: This ale is clear, crisp and low-medium bitterness with a nice balance of hops and malt.
+        abv: 3.8% to 5.5%
+        ibu: 15-28
+        image: http://image.shutterstock.com/z/stock-photo-glass-of-beer-and-wheat-on-wooden-table-142589947.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #pale
+            #paleale
+            #hoppy
+            #malty
+            #fruityaroma
+            #lightyellow
+            #deepgold
+            #clear
+            #crisp
+
+    englishBitter:
+        name: English Bitter
+        desc: This is a british term used for pale ale which is light to medium bodied beer.
+        abv: 3% to 7%
+        ibu: 20-35
+        image: http://image.shutterstock.com/z/stock-photo-glass-of-beer-on-wooden-table-135922628.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #pale
+            #paleale
+            #fruity
+            #hoppy
+
+    englishPaleAle:
+        name: English pale Ale
+        desc: English Pale Ale are known for their strong bitter flavour.
+        abv: 4.5% to 5.5%
+        ibu: 20-40
+        image: http://image.shutterstock.com/z/stock-photo-two-glass-beer-on-wood-background-with-copyspace-117511444.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #pale
+            #paleale
+            #hoppy
+            #malty
+            #earthy
+
+    southwoldBitter:
+        name: Southwold Bitter
+        desc: A refreshing hoppy and dry beer.
+        abv: 4.1%
+        image: http://image.shutterstock.com/z/stock-photo-frothy-orange-pumpkin-ale-ready-to-drink-216773866.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #pale
+            #paleale
+            #hoppy
+            #refreshing
+            #dry
+            #maltaroma
+
+    wherry:
+        name: Wherry
+        desc: This is a light beer with full of crispy floral flavours and bitter/citrus finish.
+        abv: 3.8%
+        image: http://image.shutterstock.com/z/stock-photo-glass-of-beer-on-a-sunset-211271734.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #pale
+            #paleale
+            #fresh
+            #zesty
+            #bitterfinish
+            #hoppy
+            #citrus
+
+    mistyRiver:
+        name: Misty River
+        desc: This beer is from Cambridge Brew House.
+        abv: 4.2%
+        ibu: 20-40
+        image: http://image.shutterstock.com/z/stock-photo-right-honest-czech-draft-beer-a-lager-in-a-glass-on-a-wooden-background-glass-of-beer-299883248.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #pale
+            #paleale
+
+    johnSmith:
+        name: John Smith's Extra Smooth
+        desc:
+        abv: 3.6%
+        ibu:
+        image: http://image.shutterstock.com/z/stock-photo-england-london-november-john-smith-s-brewery-was-an-english-brewing-company-based-in-231602182.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #pale
+            #paleale
+
+    johnSmithOriginal:
+        name: John Smith's Original
+        desc:
+        abv: 3.6%
+        ibu:
+        image: http://image.shutterstock.com/z/stock-photo-england-london-november-john-smith-s-brewery-was-an-english-brewing-company-based-in-231602182.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #pale
+            #paleale
+
+    crabbies:
+        name: Crabbies
+        desc:
+        abv: 4%
+        ibu:
+        image: http://image.shutterstock.com/z/stock-photo-craft-ginger-beer-ale-in-snifter-glass-shallow-depth-of-field-339353825.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #pale
+            #paleale
+            #glutenfree
+            #ginger
+            #refreshing
+
+    tennent:
+        name: Tennent's Aged With Whiskey Oak
+        desc:
+        abv: 6%
+        ibu:
+        image: http://image.shutterstock.com/z/stock-photo-poznan-poland-august-tennent-s-whisky-oak-is-a-brand-of-beer-produced-by-wellpark-468530999.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #pale
+            #englishstyle
+            #strong
+            #hybrid
+
+    johnSmithCask:
+        name: John Smith's Cask
+        desc:
+        abv: 3.8%
+        ibu:
+        image: http://image.shutterstock.com/z/stock-photo-england-london-november-john-smith-s-brewery-was-an-english-brewing-company-based-in-231602182.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #pale
+            #paleale
+
+    oldHoppyHen:
+        name: Old Hoppy Hen
+        desc:
+        abv: 5%
+        ibu:
+        image: http://image.shutterstock.com/z/stock-photo-beer-tap-263923439.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #pale
+            #paleale
+            #crisp
+
+    oldGoldenHen:
+        name: Old Golden Hen
+        desc:
+        abv: 4.1%
+        ibu:
+        image: http://image.shutterstock.com/z/stock-photo-pint-glass-of-india-pale-ale-on-long-bar-in-afternoon-300703898.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #pale
+            #paleale
+            #english
+            #bitterStyle
+            #craft
+
+    johnSmithMagnet:
+        name: John Smith's Magnet
+        desc:
+        abv: 4%
+        ibu:
+        image: http://image.shutterstock.com/z/stock-photo-england-london-november-john-smith-s-brewery-was-an-english-brewing-company-based-in-231602182.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #pale
+            #paleale
+
+    guestAle:
+        name: Guest Ale
+        desc:
+        abv: 4%- 4.7%
+        ibu:
+        image: http://image.shutterstock.com/z/stock-photo-glasses-of-light-and-dark-beer-on-a-pub-background-391005619.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #pale
+            #paleale
+
+    ##indiaPaleAle(IPA)
+
+    americanIPA:
+        name: American IPA
+        desc: American IPA are known for it's stong bitterness, more hops with citrus/herbal flavour.
+        abv: 5.55 to 7.5%
+        ibu: 40-70
+        image: http://image.shutterstock.com/z/stock-photo-glass-of-light-beer-on-a-dark-pub-bar-with-wood-table-and-orange-background-with-bokeh-effect-487289938.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #indiapaleale
+            #IPA
+            #hoppy
+            #herbal
+            #citrus
+            #bitter
+
+    imperialIPA:
+        name: Imperial or Double IPA
+        desc: This beer is known for its strong flavour and high hop bitterness.
+        abv: 7.5% to 10.5%
+        ibu: 65-100
+        image: http://image.shutterstock.com/z/stock-photo-beer-in-a-glass-on-a-wooden-background-386537110.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #indiapaleale
+            #IPA
+            #hoppy
+            #strong
+            #goldcolour
+            #lightbrown
+            #cleartohazy
+            #malty
+
+    lateKnight:
+        name: Late Knights Worm Catcher
+        desc:
+        abv: 5%
+        ibu:
+        image: http://image.shutterstock.com/z/stock-photo-glass-of-light-beer-with-tall-white-foam-head-on-a-wooden-table-436244572.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #indiapaleale
+            #IPA
+
+    englishIPA:
+        name: English IPA
+        desc: This beer is similar to American IPA with lower/weaker alcohol and hoppy flavour.
+        abv: 4.5 to 5.5%
+        ibu: 20-40
+        image: http://image.shutterstock.com/z/stock-photo-glass-of-beer-on-dark-background-450614932.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #indiapaleale
+            #IPA
+            #goldcolour
+            #coppercolour
+            #clear
+
+    sweetChariotIPA:
+        name: Sweet Chariot IPA
+        desc: This beer is from Cambridhe Brew House.
+        abv: 4.3%
+        ibu:
+        image: http://image.shutterstock.com/z/stock-photo-glass-of-craft-ipa-beer-on-a-table-during-beer-festival-in-belarus-india-pale-ale-hoppy-beer-309067967.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #indiapaleale
+            #IPA
+
+    greenKingIPA:
+        name: Green King IPA
+        desc:
+        abv: 3.6%
+        ibu:
+        image: http://image.shutterstock.com/z/stock-photo-close-up-of-cold-beer-tap-selective-focus-point-402621667.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #indiapaleale
+            #IPA
+
+
+    ##porter
+
+    americanImperialPorter:
+        name: American Imperial Porter
+        desc: It is a full-bodied dark brown or black beer.
+        abv: 7% to 12%
+        ibu: 35-50
+        image: http://image.shutterstock.com/z/stock-photo-glass-beer-on-wood-background-with-copyspace-316458374.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #porter
+            #blackcolour
+            #opaque
+            #caramel
+            #cocoa
+
+    englishBrownPorter:
+        name: English Brown Porter
+        desc: It is a sweet, medium bitter and soft beer.
+        abv: 4.55 to 6%
+        ibu: 20-30
+        image: http://image.shutterstock.com/z/stock-photo-beer-297429362.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #porter
+            #browncolour
+            #opaque
+            #nutty
+            #chocolate
+            #caramel
+            #toffee
+
+    robustPorter:
+        name: Robust Porter
+        desc: Robust porter is a dark and full-bodied beer with a subtle caramel flavour.
+        abv: 5% to 6.5%
+        ibu: 25-40
+        image: http://image.shutterstock.com/z/stock-photo-glass-full-of-dark-brown-ale-beer-over-a-dark-background-465349430.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #porter
+            #hoppy
+            #bitter
+            #roastedmaltflavour
+            #caramel
+            #opaque
+            #verydarkcolour
+            #black
+
+    nightPorter:
+        name: Night Porter
+        desc: This beer is from Cambridhe Brew House.
+        abv: 4.4%
+        ibu:
+        image: http://image.shutterstock.com/z/stock-photo-snifter-glass-full-of-dark-ale-standing-on-a-wooden-barrel-in-a-cellar-426602533.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #porter
+
+    ##stout
+
+    guinness:
+        name: Guinness
+        desc: Guiness is a dry Irish stout from Dublin, Ireland
+        abv: 4.3%
+        image: http://image.shutterstock.com/z/stock-photo-dublin-ireland-april-closeup-of-gate-to-the-guinness-storehouse-brewery-visitor-367990412.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #stout
+            #dark
+
+    guinnessEx:
+        name: Guinness Draught Extra Cold
+        desc: Guiness is a dry Irish stout from Dublin, Ireland
+        abv: 4.2%
+        image: http://image.shutterstock.com/z/stock-photo-dublin-ireland-april-closeup-of-gate-to-the-guinness-storehouse-brewery-visitor-367990412.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #stout
+            #dark
+
+    americanStout:
+        name: American Stout
+        desc: It is a bold and black beer which finishes with a note of dry-roasted bitterness.
+        abv: 5% to 7%
+        ibu: 35-75
+        image: http://image.shutterstock.com/z/stock-photo-black-beer-on-wooden-background-239338579.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #stout
+            #dark
+            #chocolate
+            #coffee
+            #hoppy
+            #black
+
+    americanImperialStout:
+        name: American Imperial Stout
+        desc: It is a medium bodied to fullbodied with rich malty flavour.
+        abv: 7% to 12%
+        ibu: 50-80
+        image: http://image.shutterstock.com/z/stock-photo-glass-full-of-dark-brown-ale-beer-over-a-dark-background-463242101.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #stout
+            #dark
+            #maltyflavour
+            #blackcolour
+            #hoppy
+            #opaque
+            #bitter
+            #chocolate
+            #cocoa
+
+    oatmealStout:
+        name: Oatmeal Stout
+        desc: This is a smooth, rich with dark malt flavours beer.
+        abv: 3.8% to 6%
+        ibu: 20-40
+        image: http://image.shutterstock.com/z/stock-photo-tall-glass-of-dark-beer-over-a-dark-background-lit-yellow-204397003.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #stout
+            #dark
+            #darkbrown
+            #black
+            #opaque
+            #hoppy
+            #malty
+
+    milkStout:
+        name: Milk Stout
+        desc: It is a dark and delicious beer which contains lactose (milk sugar).
+        abv: 3% to 6%
+        ibu: 15-25
+        image: http://image.shutterstock.com/z/stock-photo-glass-of-dark-beer-on-brown-background-173052788.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #stout
+            #dark
+            #sweetcaramel
+            #chocolateflavour
+            #blackcolour
+            #opaque
+            #sweet
+            #milk
+
+    irishDryStout:
+        name: Irish Dry Stout
+        desc: it is an Irish standard stout with a dryer taste such as Guinness.
+        abv: 3.8% to 5%
+        ibu: 30-40
+        image: http://image.shutterstock.com/z/stock-photo-craft-beer-265034264.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #stout
+            #dark
+            #black
+            #bitter
+            #cleartoopaque
+            #hoppy
+
+
+    ##belgianStyle:
+
+    belgianPaleAle:
+        name: Belgian Pale Ale
+        desc: Belgian Pale Ale is a mild and toasted malt flavour beer.
+        abv: 4.8% to 5.5%
+        ibu: 20-30
+        image: http://image.shutterstock.com/z/stock-photo-alcohol-bavarian-beer-259720967.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #paleale
+            #belgianstyle
+            #malty
+            #hoppy
+            #amber
+            #copper
+
+    belgianDubbel:
+        name: Belgian Dubbel
+        desc: Belgian Dubbel is a deeply malty rich beer with spicy or fruity notes.
+        abv: 6% to 7.6%
+        ibu: 15-25
+        image: http://image.shutterstock.com/z/stock-photo-closeup-of-a-glass-of-fresh-foamy-beer-on-a-table-in-a-vintage-beer-cellar-124313026.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #belgianstyle
+            #brown
+            #very dark
+            #rich
+            #malty
+
+    belgianTripel:
+        name: Belgian Tripel
+        desc: It is a strong and light-bodied ale sometimes with complex spicy flavours.
+        abv: 7.55 to 9.5%
+        ibu: 20-40
+        image: http://image.shutterstock.com/z/stock-photo-beer-on-rustic-wood-surface-230317204.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #belgianstyle
+            #highalcohol
+            #lightbodied
+            #clear
+            #pale
+            #lightamber
+
+    belgianQuadrupel:
+        name: Belgian Quadrupel
+        desc: Belgian Quadrupel have high alcohol content and has flavours such as brown sugar, fruits or malty sweetness.
+        abv: 7.2% to 11.2%
+        ibu: 25-50
+        image: http://image.shutterstock.com/z/stock-photo-a-glass-of-dark-beer-with-beer-foam-hat-in-the-foreground-ears-of-barley-and-fresh-hops-brewing-110817986.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #belgianstyle
+            #amber
+            #dark
+            #slighthaze
+
+    belgianStyleGoldenStrongAle:
+        name: Belgian Style Golden Strong Ale
+        desc: This beer is known for complext fruity flavours and soft body.
+        abv: 7% to 11%
+        ibu: 20-50
+        image: http://image.shutterstock.com/z/stock-photo-draft-beer-377907193.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #belgianstyle
+            #fruity
+            #dryfinish
+            #clear
+            #pale
+            #copper
+            #softbody
+
+    duvel:
+        name: Duvel
+        desc: Belgian Golden Ale
+        abv: 8.5%
+        ibu: 20-50
+        image: http://image.shutterstock.com/z/stock-photo-new-york-ny-june-duvel-beer-on-display-during-th-annual-jazz-age-lawn-party-by-288610571.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #pale
+            #belgianstyle
+            #fruity
+
+    belgianStyleSaison:
+        name: Belgian Style Saison or Farmhouse Ales
+        desc: A unique beer with earthy notes and a medium hop flavour.
+        abv: 4.4% to 6.8%
+        ibu: 20-38
+        image: http://image.shutterstock.com/z/stock-photo-beer-barrel-with-beer-glass-on-table-on-wooden-background-272250281.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #belgianstyle
+            #slighthaze
+            #pale
+            #lightbrown
+            #lowhoppy
+            #softbody
+            #unique
+            #earthy
+
+    belgianStyleBlondeAle:
+        name: Belgian Style Blonde Ale
+        desc: Belgian Style Blonde Ale is an easy drinking beer with low and pleasant hop bitterness.
+        abv: 6.3% to 7.9%
+        ibu: 15-30
+        image: http://image.shutterstock.com/z/stock-photo-beer-glass-on-the-bar-counter-249395356.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #belgianstyle
+            #pale
+            #lightamber
+            #cleartobrilliant
+            #easydrinking
+            #mediumsweet
+
+    ##wheatBeer
+
+    americanPaleWheat:
+        name: American Pale Wheat
+        desc: American Pale Wheat is a full-bodied with bready and candy flavours beer.
+        abv: 8.5% to 12.2%
+        ibu: 45-85
+        image: http://image.shutterstock.com/z/stock-photo-glass-beer-on-wood-background-with-copyspace-89182822.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #wheatbeer
+            #slighthaze
+            #gold
+            #lightbrown
+            #lowhoppy
+            #bready
+            #candy
+
+    americanWheat:
+        name: American Wheat
+        desc: American Wheat is a refreshing summer beer with pale to light amber colour.
+        abv: 3.5% to 5.6%
+        ibu: 10-35
+        image: http://image.shutterstock.com/z/stock-photo-glass-beer-on-wood-background-with-copyspace-107337530.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #wheatbeer
+            #straw
+            #lightamber
+            #brillianttoslighthaze
+            #refreshing
+            #hoppy
+
+    blueMoon:
+        name: Blue Moon
+        desc: American Craft
+        abv: 5.4%
+        ibu:
+        image: http://image.shutterstock.com/z/stock-photo-new-york-ny-usa-july-blue-moon-beer-on-display-at-chef-guy-fieri-presented-designed-460625566.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #wheatbeer
+            #refreshing
+
+    belgianWitbier:
+        name: Belgian Witbier
+        desc: Belgian Witbier is a light fruity flavour dry beer.
+        abv: 4.8% to 5.6%
+        ibu: 10-17
+        image: http://image.shutterstock.com/z/stock-photo-craft-beer-in-bar-217064809.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #wheatbeer
+            #hazy
+            #straw
+            #pale
+            #dry
+
+    berlinerWeisse:
+        name: Berliner Weisse
+        desc: It is a tart beer and raspberry syrup or woodruff are sometimes added to dilute the sour taste.
+        abv: 2.8% to 3.4%
+        ibu: 3-6
+        image: http://image.shutterstock.com/z/stock-photo-glass-of-light-beer-on-the-wooden-table-401725291.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #wheatbeer
+            #cleartohazy
+            #raspberry
+            #woodruff
+            #tart
+            #lowalcohol
+            #pale
+
+    dunkelweizen:
+        name: Dunkelweizen
+        desc: It is a dark beer with sweet maltiness and chocolate.
+        abv: 4.8% to 5.4%
+        ibu: 10-15
+        image: http://image.shutterstock.com/z/stock-photo-pint-of-crafted-ale-on-wooden-table-in-beer-garden-309067985.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #wheatbeer
+            #hazy
+            #copperbrown
+            #bready
+
+    hefeweizen:
+        name: Hefeweizen
+        desc: Hefeweizen is a crisp and carbonated style beer with a hint of clove, banana or apple.
+        abv: 4.9% to 5.6%
+        ibu: 10-15
+        image: http://image.shutterstock.com/z/stock-photo-glass-of-light-beer-on-a-dark-pub-234736828.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #wheatbeer
+            #hazy
+            #straw
+            #amber
+            #banana
+            #clove
+            #apple
+
+    ##spontaneousFermenting:
+
+    americanSour:
+        name: American Sour
+        desc: Ameican sour is a tart beer and made in variuos types of brewing vessels.
+        abv: varies
+        ibu: varies
+        image: http://image.shutterstock.com/z/stock-photo-two-glass-beer-on-wood-background-with-copyspace-118292548.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #spontaneousfermenting
+            #tart
+            #hoppy
+            #specialty
+
+    belgianFruitlambic:
+        name: Belgian Fruit Lambic
+        desc: Belgian Fruit Lambic is an intense flavoured beer with sour brew with tart and various fruity flavours.
+        abv: 5% to 8.9%
+        ibu: 15-21
+        images: http://image.shutterstock.com/z/stock-photo-pint-glass-of-craft-beer-indian-pale-ale-on-wooden-table-in-beer-garden-398547892.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #spontaneousfermenting
+            #fruity
+            #tart
+            #sour
+            #sweet
+            #specialty
+
+    flandersRedAle:
+        name: Flanders Red Ale
+        desc: Flanders Red Ale is a good balance beer with malty, fruity flavours with a strong sour flavour.
+        abv: 4.6% to 6.6%
+        ibu: 10-25
+        images: http://image.shutterstock.com/z/stock-photo-beer-glass-on-dark-background-479823070.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #spontaneousfermenting
+            #sour
+            #sweet
+            #cherrylike
+            #malt
+            #cocoa
+            #oak
+            #wood
+            #brillianttoslighthaze
+            #specialty
+
+    belgianGueuze:
+        name: Belgian Gueuze
+        desc: It is a very strong sour beer which is usually made by blending and re-fermenting the old and new lambics.
+        abv: 5% to 8%
+        ibu: 0-10
+        images: http://image.shutterstock.com/z/stock-photo-glass-and-bottle-of-beer-with-wheat-ears-on-wooden-planks-216226903.jpg
+        licence:
+        tags: |
+            #beer
+            #ale
+            #spontaneousfermenting
+            #sour
+            #mostlybrilliant
+            #refermented
+            #specialty
+
+    #specialty
+
+    williamBro:
+        name: William Bros. Faroch Ale
+        desc:
+        abv: 5%
+        ibu:
+        image: http://image.shutterstock.com/z/stock-photo-closeup-of-an-irish-red-ale-served-in-a-chalice-over-a-black-background-135211985.jpg
+        licence:
+        tags: |
+            #beer
+            #specialty
+            #light
+            #smoothfinish
+
+    nethergateUmbelAle:
+        name: Nethergate Umbel Ale
+        desc:
+        abv: 3.8%
+        ibu:
+        image: http://image.shutterstock.com/z/stock-photo-pint-of-crafted-ale-on-wooden-table-in-beer-garden-338385629.jpg
+        licence:
+        tags: |
+            #beer
+            #specialty
+            #coriander
+            #dry
+            #crisp
+
+
+    wildbeerCo:
+        name: Wild Beer Co Smoke 'n' Barrels Summer
+        desc:
+        abv: 4%
+        ibu:
+        image: http://image.shutterstock.com/z/stock-photo-glass-of-wheat-beer-with-slice-of-lemon-on-a-table-outdoors-in-minsk-belarus-461043991.jpg
+        licence:
+        tags: |
+            #beer
+            #specialty
+            #nicegose
+            #funky
+            #sour
+            #bacon
+            #pepper
+
+    haandbry:
+        name: Haandbryggeriet Norwegian Wood
+        desc:
+        abv: 6.5%
+        ibu:
+        image: http://image.shutterstock.com/z/stock-photo-two-glasses-with-beer-served-on-the-table-123451237.jpg
+        licence:
+        tags: |
+            #beer
+            #specialty
+            #smokybeer
+
+    yeastieBoys:
+        name: Yeastie Boys xeRRex
+        desc:
+        abv: 10%
+        ibu:
+        image: http://image.shutterstock.com/z/stock-photo-beer-glass-304913345.jpg
+        licence:
+        tags: |
+            #beer
+            #specialty
+            #smokybeer
+
+    schlenkerlaRau:
+        name: Schlenkerla Rauchbier Weizen
+        desc:
+        abv: 5.20%
+        ibu:
+        image: http://image.shutterstock.com/z/stock-photo-glass-of-dark-bock-beer-standing-on-tree-trunk-in-autumn-forest-117227941.jpg
+        licence:
+        tags: |
+            #beer
+            #specialty
+            #smokyflavour
+
+
+    #cider
+    strongbowSirrus:
+        name: Strongbow Sirrus
+        desc:
+        abv: 4.5% to 5.3%
+        ibu:
+        image: http://image.shutterstock.com/z/stock-photo-london-uk-december-beermat-of-strongbow-sirrus-cider-240833197.jpg
+        licence:
+        tags: |
+            #cider
+            #beer
+
+    rekorderlig:
+        name: Rekorderlig
+        desc:
+        abv:
+        ibu:
+        image: http://image.shutterstock.com/z/stock-photo-heidelberg-germany-december-cans-of-cider-isolated-on-black-349644476.jpg
+        licence:
+        tags: |
+            #beer
+            #cider
+            #pear
+            #swedish
+
+    somersby:
+        name: Somersby
+        desc:
+        abv: 4.5
+        ibu:
+        image: http://image.shutterstock.com/z/stock-photo-poznan-poland-june-somersby-cider-is-a-brand-of-abv-cider-produced-by-danish-443197657.jpg
+        licence:
+        tags: |
+            #beer
+            #cider
+            #danish
+
+    rekorderligApple:
+        name: Rekorderlig Apple
+        desc:
+        abv:
+        ibu:
+        image: http://image.shutterstock.com/z/stock-photo-apple-cider-close-up-117103393.jpg
+        licence:
+        tags: |
+            #beer
+            #cider
+            #swedish
+
+    rekorderligElder:
+        name: Rekorderlig Elder Flower
+        desc:
+        abv:
+        ibu:
+        image: http://image.shutterstock.com/z/stock-photo-heidelberg-germany-december-cans-of-cider-isolated-on-black-349644476.jpg
+        licence:
+        tags: |
+            #beer
+            #cider
+            #swedish
+
+    rekorderligPassionFruit:
+        name: Rekorderlig Passion Fruit
+        desc:
+        abv:
+        ibu:
+        image: http://image.shutterstock.com/z/stock-photo-passion-fruits-on-wooden-background-146656691.jpg
+        licence:
+        tags: |
+            #beer
+            #cider
+            #swedish
+
+    rekorderligStrawberryLime:
+        name: Rekorderlig Strawberry-Lime
+        desc:
+        abv:
+        ibu:
+        image: http://image.shutterstock.com/z/stock-photo-fresh-strawberry-and-lime-on-the-old-table-273458906.jpg
+        licence:
+        tags: |
+            #beer
+            #cider
+            #swedish
+
+    rekorderligWildBerries:
+        name: Rekorderlig Wild Berries
+        desc:
+        abv:
+        ibu:
+        image: http://image.shutterstock.com/z/stock-photo-a-variety-of-wild-berries-in-the-shape-of-heart-as-a-symbol-of-valentine-and-love-at-natural-321303962.jpg
+        licence:
+        tags: |
+            #beer
+            #cider
+            #swedish
+
+    rekorderligMangoAndRaspberry:
+        name: Rekorderlig Mango and Raspberry
+        desc:
+        abv:
+        ibu:
+        image: http://image.shutterstock.com/z/stock-photo-mango-slice-raspberry-isolated-on-white-background-as-package-design-element-453046636.jpg
+        licence:
+        tags: |
+            #beer
+            #cider
+            #swedish
+
+    rekorderligPeachAndApricot:
+        name: Rekorderlig Peach and Apricot
+        desc:
+        abv:
+        ibu:
+        image: http://image.shutterstock.com/z/stock-photo-fresh-apricot-juice-with-ice-on-old-brown-wooden-table-selective-focus-432143299.jpg
+        licence:
+        tags: |
+            #beer
+            #cider
+            #swedish
+
+    rekorderligAppleAndGuava:
+        name: Rekorderlig Apple and Guava
+        desc:
+        abv:
+        ibu:
+        image: http://image.shutterstock.com/z/stock-photo-apple-cider-in-glass-bottle-with-water-drops-461691703.jpg
+        licence:
+        tags: |
+            #beer
+            #cider
+            #swedish
+
+    thatchersGold:
+        name: Thatchers Gold
+        desc:
+        abv: 4.8
+        ibu:
+        image: http://image.shutterstock.com/z/stock-photo-liskeard-united-kingdom-july-a-studio-shot-of-thatchers-gold-cider-the-thatchers-family-449312773.jpg
+        licence:
+        tags: |
+            #beer
+            #cider
+
+    aspall:
+        name: Aspall
+        desc:
+        abv: 5.5%
+        ibu:
+        image: http://image.shutterstock.com/z/stock-photo-swindon-uk-february-bottle-of-aspall-classic-organic-cyder-on-a-white-background-252613159.jpg
+        licence:
+        tags: |
+            #beer
+            #cider
+            #suffolkCyder
+            #draught
+
+    kopparberg:
+        name: Kopparberg
+        desc:
+        abv:
+        ibu:
+        image: https://pixabay.com/static/uploads/photo/2014/10/11/17/33/bottle-484799_960_720.jpg
+        licence: Pixabay
+        tags: |
+            #beer
+            #cider
+
+    ### Wine
+
+    ### Red
+
+    # wine bodies: light, medium-bodied, heavy
+
+    houseRed:
+        name: House Red
+        desc: A classic easy to drink wine.
+        image: http://image.shutterstock.com/z/stock-photo-red-wine-bottle-and-wine-glass-on-wodden-barrel-115127932.jpg
+        licence:
+        tags: |
+            #wine
+            #red
+            #house
+
+    poggio:
+        name: Poggio Castagno Chianti Classico
+        desc: A classic Chianti with complex flavours
+        image: http://image.shutterstock.com/z/stock-photo-red-wine-with-grapes-and-vine-leaves-326602778.jpg
+        licence:
+        tags: |
+            #wine
+            #red
+
+    canaletto:
+        name: Canaletto Montepulciano D'Abruzzo
+        desc: A fruity, juicy wine from the Abruzzo region of Central Italy. Great with rich pasta sauces
+        image: http://image.shutterstock.com/z/stock-photo-red-wine-grapes-and-cheese-lavaux-region-switzerland-372114742.jpg
+        licence:
+        tags: |
+            #wine
+            #red
+            #fruity
+
+    merlot:
+        name: Merlot
+        desc: Merlot is a popular and easy-to-drink red wine.
+        abv: 13.5% to 15%
+        images: http://image.shutterstock.com/z/stock-photo-glass-of-red-wine-and-a-old-barrels-at-the-wood-table-362633192.jpg
+        licence:
+        tags: |
+            #wine
+            #red
+            #ripe
+            #soft
+            #lowacidity
+            #herbalflavours
+            #plums
+            #blackcherry
+            #popular
+            #easy-drinking
+            #medium-bodied
+
+    cabernetSaugvignon:
+        name: Cabernet Sauvignon
+        desc: Cabernet Sauvignon is a full-bodied red wine aged in oak and rich in tannins.
+        abv: 13.5% to 15%
+        image: https://pixabay.com/en/red-wine-carafe-cup-red-vase-1204078/
+        licence: https://pixabay.com/en/blog/posts/public-domain-images-what-is-allowed-and-what-is-4/
+        tags: |
+            #wine
+            #red
+            #ruby
+            #darkpurple
+            #oak
+            #rich
+            #fullbodied
+            #tannins
+
+    pinotNoir:
+        name: Pinot Noir
+        desc: Pinot noir is a light fruity and smooth red wine.
+        abv: 11.5 % to 14%
+        image: http://image.shutterstock.com/z/stock-photo-the-composition-of-tartaric-paraphernalia-on-the-topic-the-wine-417580864.jpg
+        licence:
+        tags: |
+            #wine
+            #red
+            #light-bodied
+            #smooth
+            #silky
+            #fruity
+            #cherry
+            #plums
+            #strawberry
+
+    rioja:
+        name: Rioja
+        desc: Rioja is a red wine from the Rioja region in Spain, not unlike Cabinet Saugvignon, but with some cherry fruitiness.
+        image: http://image.shutterstock.com/z/stock-photo-red-wine-for-two-in-sunset-158862863.jpg
+        licence:
+        tags: |
+            #wine
+            #red
+            #spanish
+            #tannins
+            #fruity
+            #cherry
+            #oak
+
+    malbec:
+        name: Malbec
+        desc: Mallbec is a popular and easy to drink red wine with a tonne of juicy and fruity flavours.
+        abv: 13.5-15%
+        image: http://image.shutterstock.com/z/stock-photo-delicious-cheese-and-wine-at-the-fireplace-146619302.jpg
+        tags: |
+            #wine
+            #tannins
+            #red
+            #fullbodied
+            #red
+            #darkfruit
+            #blackberry
+            #plum
+            #cherry
+            #malbec
+
+    shiraz:
+        name: Shiraz
+        desc: A dark  and full bodied red wine
+        image: http://image.shutterstock.com/z/stock-photo-still-life-with-red-wine-on-old-barrel-71499142.jpg
+        licence:
+        tags: |
+            #wine
+            #dark
+            #fullbodied
+            #tannins
+            #red
+            #acidic
+            #blackberry
+            #blackpepper
+
+    cabernetFranc:
+        name: Cabernet Franc
+        desc: A tannic earthy red wine simlar to or lighter than Cabernet Sauvignon and it has a smooth finish.
+        abv: 12.5% and above
+        image: http://image.shutterstock.com/z/stock-photo-wine-bottle-wine-bottle-289995581.jpg
+        licence:
+        tags: |
+            #wine
+            #tannins
+            #red
+            #blueberry
+            #dark
+            #mediumbodied
+            #vanilla
+            #blackberry
+            #cherry
+            #acidic
+
+    sangiovese:
+        name: Sangiovese
+        desc: A savory red wine offering a wide range of tastes from very earthy to round and fruity.
+        abv: 13.5% to 14.5%
+        image: http://image.shutterstock.com/z/stock-photo-two-glasses-of-red-wine-at-sunset-on-beach-432280501.jpg
+        licence:
+        tags: |
+            #light
+            #wine
+            #acidic
+            #cherry
+            #red
+            #strawberry
+            #cherry
+            #lightoak
+            #plum
+            #tannins
+
+    beaujlaisNouveau:
+        name: Beaujolais Nouveau
+        desc: It is a fruity french red wine and is released in the same year of its harvest.
+        abv: 12.5% to 13%
+        image: http://image.shutterstock.com/z/stock-photo-red-wine-with-barrel-on-vineyard-in-green-tuscany-italy-295625084.jpg
+        licence:
+        tags: |
+            #wine
+            #red
+            #fruity
+            #easytodrink
+            #cherry
+            #strawberry
+            #raspberry
+            #soft
+
+    barolo:
+        name: Barolo
+        desc: This is a rich taste full-bodied italian wine which grows better with age.
+        abv: 13.5% to 15%
+        image: https://pixabay.com/en/wine-bowl-glass-of-wine-792877/
+        licence: https://pixabay.com/en/blog/posts/public-domain-images-what-is-allowed-and-what-is-4/
+        tags: |
+            #wine
+            #red
+            #crimsonred
+            #fullbodied
+            #tannins
+            #acidic
+            #rich
+            #exoticaromas
+            #tar
+            #roses
+            #licorice
+            #mint
+            #spice
+            #herbs
+
+    dolcetto:
+        name: Dolcetto
+        desc: Dolcetto, an italian wine is known as everday's wine because of its soft tanning, a light easy drinking, and being suitable with any type of food.
+        abv: 11.5% to 13.5%
+        image: http://image.shutterstock.com/z/stock-photo-still-life-with-various-types-of-italian-food-and-wine-355046657.jpg
+        licence:
+        tags: |
+            #wine
+            #red
+            #soft
+            #sweet
+            #blackcherry
+            #licorice
+            #pruneflavours
+            #bitterfinish
+
+    zinfandel:
+        name: Zinfandel
+        desc: Zinfandel is a robust, high in alcohol, moderate in acidity red wine with tannins.
+        abv: 14% to 15.5%
+        image: http://image.shutterstock.com/z/stock-photo-decanter-with-red-wine-and-glass-on-a-old-stone-background-97173719.jpg
+        licence:
+        tags: |
+            #wine
+            #red
+            #pepper
+            #berry
+            #moderateacidity
+            #tannins
+
+    ###White
+
+    houseWhite:
+        name: House White
+        desc: A classic easy to drink wine.
+        image: http://image.shutterstock.com/z/stock-photo-vineyards-at-sunset-in-a-beautiful-summer-evening-122688508.jpg
+        licence:
+        tags: |
+            #wine
+            #white
+            #house
+
+    sauvignonBlanc:
+        name: Sauvignon Blanc or Fume Blanc
+        desc: Sauvignon Blanc is the most popular white wine in the UK which is classy, refreshing and great with food.
+        abv: 10% to 13%
+        image: http://image.shutterstock.com/z/stock-photo-wine-and-grapes-against-vineyards-in-lavaux-switzerland-398832547.jpg
+        licence:
+        tags: |
+            #wine
+            #white
+            #popular
+            #dry
+            #fruity
+            #tropicalflavour
+            #acidic
+            #crisp
+
+    pinotGrigio:
+        name: Pinot Grigio or Pinot Gris
+        desc: A popular refreshing and zesty white wine. It's medium to full-bodied wine.
+        abv: 11.5% to 13%
+        image: http://image.shutterstock.com/z/stock-photo-wine-glass-against-lavender-landscape-393804382.jpg
+        licence:
+        tags: |
+            #white
+            #wine
+            #light
+            #dry
+            #refreshing
+            #zesty
+            #citrus
+
+    chardonnay:
+        name: Chardonnay
+        desc: This is the wolrd most famous white wine.
+        abv: 13% to 14.5%
+        image: http://image.shutterstock.com/z/stock-photo-the-glass-of-wine-an-and-old-barrel-and-grape-51927529.jpg
+        licence:
+        tags: |
+            #white
+            #wine
+            #crisp
+            #fruity
+            #oak
+            #aromatic
+
+    riesling:
+        name: Riesling
+        desc: An aromatic refreshing white wine with a flavour of apples and it's flavours range from very sweet to bone dry.
+        abv: 6% to 8% (German) and 10.5 to 12.5% (American, Austrian and Australian)
+        image:  http://image.shutterstock.com/z/stock-photo-two-glasses-of-the-white-wine-picnic-theme-115565956.jpg
+        licence:
+        tags: |
+            #light
+            #wine
+            #fresh
+            #white
+            #sweet
+            #acidic
+            #apple
+            #crisp
+            #acidic
+            #floral
+            #intensemineral
+
+    cheninBlanc:
+        name: Chenin Blanc
+        desc: A light bodied white wine similar to Saugvignon Blanc.
+        image: http://image.shutterstock.com/z/stock-photo-two-glasses-of-tasty-white-wine-at-sunset-125299415.jpg
+        licence:
+        tags: |
+            #white
+            #wine
+            #light
+            #zesty
+            #acidic
+
+    moscato:
+        name: Moascato or Muscat
+        desc: A fragrant dessert wine produced as both sweet semi-sparkling or still wine.
+        abv: 5% to 7%
+        image: http://image.shutterstock.com/z/stock-photo-glass-of-white-wine-on-vintage-wooden-table-156728594.jpg
+        licence:
+        tags: |
+            #sweet
+            #fruity
+            #white
+            #wine
+            #dessert
+            #honey
+            #acidic
+            #citrus
+
+    gewurztraminer:
+        name: Gewurztraminer
+        desc: It is a strong, full-bodied and highly perfumed and lychee-nut flavoured white wine.
+        abv: 11.5% to 15%
+        image: http://image.shutterstock.com/z/stock-photo-two-glasses-of-white-wine-on-table-overlooking-california-wine-country-on-sunny-cloudless-day-416475664.jpg
+        licence:
+        tags: |
+            #wine
+            #white
+            #lychees
+            #grapefruit
+            #pineapple
+            #fruity
+            #spice
+            #herbs
+            #fullbodied
+            #aciditymediumlow
+
+    viognier:
+        name: Viognier
+        desc: Viognier is a unique wine which is well distinguished by their floral aromas and terpenes.
+        abv: 13.5% to 15%
+        image: http://image.shutterstock.com/z/stock-photo-wine-glasses-with-christmas-decor-on-fireplace-background-346629953.jpg
+        licence:
+        tags: |
+            #wine
+            #white
+            #tropicalaroma
+            #flatinnose
+            #crisp
+            #dry
+            #lowacidity
+
+    semillon:
+        name: Semillon
+        desc: This is France's 3rd most important white wine which is full-bodied, lanolin and can range from rich, creamy, lemon-flavoured to zesty.
+        abv: 11.5% to 13.5%
+        image: http://image.shutterstock.com/z/stock-photo-two-glasses-with-white-wine-and-cheese-374704408.jpg
+        licence:
+        tags: |
+            #white
+            #wine
+            #dry
+            #fruity
+            #citrus
+            #oak
+            #fullbodied
+            #zesty
+            #lemon
+            #lime
+            #rich
+            #creamy
+            #lanolin
+            #mediumacidity
+
+    # wine, rose
+
+    houseRose:
+        name: House Rose
+        desc:
+        image: http://image.shutterstock.com/z/stock-photo-two-glasses-and-bottle-of-the-rose-wine-in-autumn-vineyard-harvest-time-156616889.jpg
+        licence:
+        tags: |
+            #wine
+            #rose
+            #house
+
+    grenache:
+        name: Grenache Rosé
+        desc: Grenache is a dry, acidic and fruity Rosé.
+        image: http://image.shutterstock.com/z/stock-photo-rose-wine-glass-and-rose-petals-424994410.jpg
+        licence:
+        tags: |
+            #wine
+            #rose
+            #fruity
+            #lowinacidity
+            #dry
+            #cherry
+            #lowintannin
+            #grenache
+
+    zinfandel:
+        name: Zinfandel Rosé
+        desc: Zinfandel is a moderately sweet and dry
+        image:
+        licence:
+        tags: |
+            #popular
+            #fruity
+            #sweet
+            #acidic
+            #lemon
+            #strawberry
+            #rose
+            #wine
+            #zinfandel
+
+    provence:
+        name: Provence
+        desc: The most famous rose region in the world, the rose wines of Provence are versatile.
+        image: http://image.shutterstock.com/z/stock-photo-glasses-with-rose-wine-on-rustic-wood-background-459282853.jpg
+        licence: googlefree
+        tags: |
+            #crisp
+            #fresh
+            #dry
+            #popular
+            #rosepetal
+            #fruity
+            #spicy
+            #rose
+            #wine
+            #provence
+
+    syrah:
+        name: Syrah
+        desc: Syrah is a full-bodied with a strong notes of cherries, white pepper and strawberries. You won't find may Syrah rose wines in Europe, but it is widely used in Frech roses as part of a blend.
+        image: http://image.shutterstock.com/z/stock-photo-two-glasses-and-bottle-of-the-rose-wine-in-autumn-vineyard-harvest-time-156616889.jpg
+        licence:
+        tags: |
+            #rubyred
+            #boldflavours
+            #fruity
+            #wine
+            #rose
+            #whitepepper
+            #cherry
+            #strawberry
+            #syrah
+
+    tempranillo:
+        name: Tempranillo
+        desc: This wine tastes amazing and gives a fruity flavour with refreshing acidity. This is also famouse for being used in the red wines of Rioja.
+        image: http://image.shutterstock.com/z/stock-photo-rose-wine-on-outdoor-old-rustic-wooden-table-461564065.jpg
+        licence:
+        tags: |
+            #acidity
+            #refreshing
+            #fruity
+            #wine
+            #rose
+            #strawberry
+            #raspberry
+            #tempranillo
+
+
+    pinotNoir:
+        name: Pinot Noir Rosé
+        desc: Pinot Noir is an elegant and delighful Rosé.
+        image: http://image.shutterstock.com/z/stock-photo-glass-of-rose-wine-with-dark-grapes-85037782.jpg
+        licence:
+        tags: |
+            #wine
+            #rose
+            #acidic
+            #soft
+            #fruity
+            #crisp
+            #apple
+            #raspberry
+            #watermelon
+            #strawberry
+            #pinotnoir
+
+    tavel:
+        name: Tavel
+        desc: Tavel is a unique, historic style and a beautiful vintage known for being extra dry compared to other rose wines. It is believed to have been the faviourite of writer Ernest Hemingway.
+        image: http://image.shutterstock.com/z/stock-photo-two-glasses-of-rose-wine-on-a-white-table-in-garden-at-vintage-style-477011941.jpg
+        licence:
+        tags: |
+            #dry
+            #nutty
+            #fruity
+            #wine
+            #rose
+            #foodwine
+            #tavel
+
+    sangiovese:
+        name: Sangiovese rose
+        desc: This wine has strong notes of roses, fresh strawberries, and a hint of bitter on the finish.
+        image: http://image.shutterstock.com/z/stock-photo-glass-of-rose-wine-in-the-sunset-curacao-a-caribbean-island-in-the-dutch-antilles-221164564.jpg
+        licence:
+        tags: |
+            #roses
+            #wine
+            #rose
+            #strawberry
+            #acidity
+            #dry
+            #fruity
+            #sanioveserose
+
+    # wine, sparkling champagne
+
+    prosecco:
+        name: Prosecco
+        desc: It is a light sparkling italian wine. Easy to drink and often drank as an alternative to Champagne.
+        image: https://pixabay.com/en/sparkling-wine-bubbles-glasses-two-1030754/
+        licence: https://pixabay.com/en/blog/posts/public-domain-images-what-is-allowed-and-what-is-4/
+        tags: |
+            #sparkling
+            #wine
+            #white
+            #dry
+            #citrus
+            #italian
+            #crisp
+            #light
+            #sweet
+            #celebration
+            #prosecco
+
+    champagne:
+        name: Champagne
+        desc: It is most popular sparkling wine worldwide and is produced from grapes grown in the Champagne region of France.
+        image: http://image.shutterstock.com/z/stock-photo-two-glasses-of-sparkling-wine-at-sunset-on-the-sea-213744382.jpg
+        licence:
+        tags: |
+            #french
+            #wine
+            #sparkling
+            #white
+            #celebration
+            #france
+            #fizzy
+            #light
+            #champagne
+
+    cremant:
+        name: Cremant
+        desc: It is mostly known for its' low amount of carbon dioxide.
+        image: http://image.shutterstock.com/z/stock-photo-two-glasses-of-champagne-selective-focus-172786481.jpg
+        licence:
+        tags: |
+            #creamy
+            #wine
+            #sparkling
+            #crisp
+            #fruity
+            #cremant
+
+    cava:
+        name: Cava
+        desc: It is a Spanish sparkling white or pink wine from Spain.
+        image:
+        licence: https://pixabay.com/en/blog/posts/public-domain-images-what-is-allowed-and-what-is-4/
+        tags: |
+            #spanish
+            #wine
+            #white
+            #pink
+            #sparkling
+            #light
+            #celebration
+            #fizzy
+            #Spain
+            #dry
+            #cava
+
+    espumate:
+        name: Espumate
+        desc: It is low level and cheap sparkling wine from Portugal.
+        image: http://image.shutterstock.com/z/stock-photo-two-glass-with-champagne-on-a-wooden-background-118304959.jpg
+        licence:
+        tags: |
+            #cheap
+            #wine
+            #sparkling
+            #acidic
+            #earthy
+            #fruity
+            #espumate
+
+    asti:
+        name: Asti
+        desc: A sweet italian sparkler wine made in the region of Asti.
+        alcohol content: 8%
+        image: http://image.shutterstock.com/z/stock-photo-a-glass-of-sparkling-wine-with-jam-on-the-table-240742150.jpg
+        licence:
+        tags: |
+            #wine
+            #sparkling
+            #sweet
+            #white
+            #floralaroma
+            #peachflavour
+            #acidity
+            #asti
+
+    trentoDoc:
+        name: Trento Doc
+        desc: It is an Italian unique sparkling wine with a dry, smooth, rounded and elegant flavour.
+        alcohol content: above 11%
+        image: http://image.shutterstock.com/z/stock-photo-horizontal-photo-of-two-glasses-of-south-african-white-sparkling-wine-in-a-garden-of-a-winery-close-264165359.jpg
+        licence:
+        tags: |
+            #wine
+            #sparkling
+            #straw-yellow
+            #dry
+            #smooth
+            #trentodoc
+
+    sekt:
+        name: Sekt or Schaumwein
+        desc: This wine is produced in Germany and is usually sweeter and lower in alcohol than champagne and other sparkling wine.
+        alcohol content: 6%
+        image: http://image.shutterstock.com/z/stock-photo-new-year-and-christmas-celebration-two-champagne-glasses-and-gift-164639684.jpg
+        licence:
+        tags: |
+            #wine
+            #sparkling
+            #golden
+            #sweet
+            #aromasofapples
+            #aromasofpears
+            #aromasofwhiteflower
+            #lowalcohol
+            #sekt
+
+    pezsgö:
+        name: Pezsgö
+        desc: Pezsgo is a sparkling wine produced in Hungary which is well crafted and perfect for celebrations.
+        alcohol content: above 11%
+        image: http://image.shutterstock.com/z/stock-photo-still-life-with-champagne-and-hours-a-new-year-s-still-life-239475289.jpg
+        licence:
+        tags: |
+            #wine
+            #sparkling
+            #creamy
+            #toasty
+            #dry
+            #pezsgo
+
+    sovetskoyeShampanskoye:
+        name: Sovetskoye Shampanskoye
+        desc: This is Russian champagne and a popular brand among rich in Soviet Union.
+        image: http://image.shutterstock.com/z/stock-photo-champagne-in-the-city-268788086.jpg
+        licence:
+        tags: |
+            #wine
+            #sparkling
+            #dry
+            #fruity
+            #hintofpeach
+            #refreshing
+            #sovetskoyeshanpanskoye
+
+    shiraz:
+        name: Shiraz
+        desc: A famous red sparkling wine produced in Australia.
+        abv: 13% or above
+        image: https://pixabay.com/en/red-wine-glass-macro-drink-red-wine-1004255/
+        licence: https://pixabay.com/en/blog/posts/public-domain-images-what-is-allowed-and-what-is-4/
+        tags: |
+            #wine
+            #sparkling
+            #sweet
+            #dry
+            #tannin
+            #red
+            #juicy
+            #berry
+            #shiraz
+
+    methodeCapClassique:
+        name: Methode Cap Classique
+        desc: It is a South African elegant sparkling wine
+        abv: 11.5% or above
+        image: http://image.shutterstock.com/z/stock-photo-glass-full-of-champagne-with-cranberries-on-table-240484984.jpg
+        licence:
+        tags: |
+            #wine
+            #sparkling
+            #fruity
+            #crisp
+            #mcc
+
+    ###vermouth
+    ###sherry
+    ###port
+
+    martiniNRossi:
+        name: Martini & Rossi
+        desc: Italy
+        abv: 15%
+        image: http://image.shutterstock.com/z/stock-photo-white-and-red-martinin-stand-on-the-table-in-a-restaurant-427021879.jpg
+        licence: Shutterstock
+        tags: |
+            #wine
+            #vermouth
+            #aperitif
+            #fortified
+
+    cinzano:
+        name: Cinzano Bianco
+        desc:
+        abv: 15%
+        image: http://image.shutterstock.com/z/stock-photo-dry-martini-vermouth-with-green-olives-black-background-selective-focus-476011066.jpg
+        licence: Shutterstock
+        tags: |
+            #wine
+            #vermouth
+            #fortified
+
+    belsazar:
+        name: Belsazar
+        desc:
+        abv: 15%
+        image: http://image.shutterstock.com/z/stock-photo-bright-red-wine-in-a-glass-on-the-table-in-the-crimea-444434671.jpg
+        licence: Shutterstock
+        tags: |
+            #wine
+            #vermouth
+            #fortified
+
+    dolin:
+        name: Dolin
+        desc:
+        abv: 17.5%
+        image: http://image.shutterstock.com/z/stock-photo-martini-glasses-on-a-bar-city-night-life-concept-450103600.jpg
+        licence: Shutterstock
+        tags: |
+            #wine
+            #vermouth
+            #fortified
+
+    carpano:
+        name: Carpano Dry
+        desc:
+        abv: 18%
+        image: http://image.shutterstock.com/z/stock-photo-glass-of-chilled-white-wine-on-table-near-the-beach-188646359.jpg
+        licence: Shutterstock
+        tags: |
+            #wine
+            #vermouth
+            #fortified
+
+    harveyBristol:
+        name: Harveys Bristol Cream
+        desc: sweet caramel and raisin sherry style
+        abv: 17.5%
+        image: http://image.shutterstock.com/z/stock-photo-glass-of-white-wine-on-vintage-wooden-table-156728594.jpg
+        licence: shutterstock
+        tags: |
+            #wine
+            #fortified
+            #sherry
+            #caramel
+            #raisin
+
+    harveyAmonti:
+        name: Harveys Amontillado
+        desc: Medium dry
+        abv: 17.5%
+        image: http://image.shutterstock.com/z/stock-photo-two-glasses-of-sherry-served-with-tasty-traditional-spanish-tapas-of-olives-salami-and-fresh-bread-420056467.jpg
+        licence: shutterstock
+        tags: |
+            #wine
+            #fortified
+            #sherry
+            #mediumDry
+
+
+    tioPepe:
+        name: Tio Pepe
+        desc:
+        abv: 15%
+        image: http://image.shutterstock.com/z/stock-photo-a-romantic-dinner-in-summer-on-a-beach-at-sunset-with-two-glasses-of-white-wine-and-a-wine-cooler-123153949.jpg
+        licence: shutterstock
+        tags: |
+            #wine
+            #fortified
+            #sherry
+
+
+    rubyPort:
+        name: Ruby Port
+        desc: Portuguese fortified wine.
+        abv: 20%
+        image: http://image.shutterstock.com/z/stock-photo-two-glasses-of-red-wine-in-the-mountains-romantic-evening-carpathians-ukraine-eco-style-446222491.jpg
+        licence: shutterstock
+        tags: |
+            #wine
+            #fortified
+            #port
+            #portuguese
+
+
+
+    ### Spirits
+
+    ##gin
+    houseGin:
+        name: House Gin
+        desc: This is a pub's choice of gin.
+        abv:
+        image: http://image.shutterstock.com/z/stock-photo-cocktail-with-lime-mint-and-ice-188114405.jpg
+        licence:
+        tags: |
+            #gin
+            #spirit
+            #lemonpeel
+            #almond
+            #lakevyrnwy
+            #orris
+            #juniper
+            #liquorice
+            #berries
+            #angelica
+            #coriander
+            #cassia
+
+    bombaySapphire:
+        name: Bombay Sapphire
+        desc: This is a light and floral tasting gin.
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-new-york-ny-january-bombay-sapphire-gin-bottle-at-the-luxury-collection-hotels-174223079.jpg
+        licence:
+        tags: |
+            #gin
+            #spirit
+            #clear
+            #lemonpeel
+            #almond
+            #lakevyrnwy
+            #orris
+            #juniper
+            #liquorice
+            #berries
+            #angelica
+            #coriander
+            #bacardi
+            #cassia
+            #cubeb
+            #lemongrass
+            #blackpeppercorn
+
+    gordon:
+        name: Gordon's
+        desc: It is a speacial dry London Gin produced since 1769.
+        abv: 37.2% to 47.3%
+        image: http://image.shutterstock.com/z/stock-photo-poznan-poland-june-gordon-s-is-a-brand-of-the-world-s-best-selling-london-dry-gin-it-443197423.jpg
+        licence:
+        tags: |
+            #gin
+            #spirit
+            #juniper
+            #lemonzest
+            #earthyspice
+            #licorice
+            #corianderseeds
+            #angelicaroots
+            #orrisroot
+
+    portebelloRoad:
+        name: Portebello Road
+        desc: This is a traditional styled London gin with different herbs and spices.
+        abv: 42%
+        image: http://image.shutterstock.com/z/stock-photo-alcoholic-drink-with-lemon-and-ice-on-a-old-wooden-table-234036709.jpg
+        licence:
+        tags: |
+            #gin
+            #spirit
+            #juniper
+            #orris
+            #lemonpeels
+            #orangepeels
+            #nutmeg
+            #cassiapark
+
+    sloeGin:
+        name: Sloe Gin
+        desc: Sloe Gin is a red liqueur.
+        abv: 15%-30%
+        image: http://image.shutterstock.com/z/stock-photo-two-shots-of-homemade-sloes-liquor-on-wooden-table-and-yellow-background-140133679.jpg
+        licence:
+        tags: |
+            #gin
+            #spirit
+            #red
+            #liqueur
+            #fruity
+            #blackthron
+            #sloeberries
+
+    williamGB:
+        name: Williams GB
+        desc:
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-gin-and-tonic-on-a-wooden-table-with-bricks-background-335297087.jpg
+        licence:
+        tags: |
+            #gin
+            #spirit
+            #dryfinish
+            #citrus
+            #spicynotes
+
+
+    kingOfSoho:
+        name: King of Soho
+        desc:
+        abv: 42%
+        image: http://image.shutterstock.com/z/stock-photo-gin-tonic-cocktail-with-slice-of-lemon-138769496.jpg
+        licence:
+        tags: |
+            #gin
+            #spirit
+            #refreshinh
+            #zesty
+
+    beefeater24:
+        name: Beefeater 24
+        desc:
+        abv: 45%
+        image: http://image.shutterstock.com/z/stock-photo-minsk-belarus-may-beefeater-gin-bottle-isolated-on-white-background-uk-distilled-276193673.jpg
+        licence:
+        tags: |
+            #gin
+            #spirit
+            #citrus
+            #spicynotes
+            #juniper
+
+    sipsmithLondonDry:
+        name: Sipsmith London Dry
+        desc:
+        abv: 41.6%
+        image: http://image.shutterstock.com/z/stock-photo-gin-tonic-in-a-glass-with-ice-rocks-423311515.jpg
+        licence:
+        tags: |
+            #gin
+            #spirit
+            #dryfinish
+            #citrus
+            #smooth
+
+    hendrick:
+        name: Hendrick's
+        desc:
+        abv: 41.4%
+        image: https://pixabay.com/static/uploads/photo/2015/09/20/00/11/hendrick-947866_960_720.jpg
+        licence:
+        tags: |
+            #gin
+            #spirit
+            #dryfinish
+            #rose
+            #refreshing
+            #cucumber
+
+    colors:
+        name: Colors London Dry Gin
+        desc:
+        abv:
+        image: http://image.shutterstock.com/z/stock-photo-saragossa-spain-august-photo-bottle-brit-colors-gin-gin-made-in-the-oldest-467200709.jpg
+        licence:
+        tags: |
+            #gin
+            #spirit
+
+
+    bathtub:
+        name: Bathtub Gin
+        desc:
+        abv:
+        image: http://image.shutterstock.com/z/stock-photo-fonte-venice-italy-january-gin-bathtub-old-tom-cl-alc-gin-is-a-spirit-which-384861445.jpg
+        licence:
+        tags: |
+            #gin
+            #spirit
+
+    gilbey:
+        name: Gilbey's London Dry Gin
+        desc:
+        abv: 37.5%
+        image: http://image.shutterstock.com/z/stock-photo-izmir-turkey-august-bottle-gilbey-s-london-dry-gin-of-on-white-backgorund-311980907.jpg
+        licence:
+        tags: |
+            #gin
+            #spirit
+
+    haymans:
+        name: Haymans
+        desc:
+        abv: 41.3%
+        image: http://image.shutterstock.com/z/stock-photo-fonte-venice-italy-january-gin-hayman-family-reserve-cl-alc-gin-is-a-spirit-384861424.jpg
+        licence:
+        tags: |
+            #gin
+            #spirit
+
+    vanGogh:
+        name: Van Gogh Gin
+        desc:
+        abv: 47%
+        image: http://image.shutterstock.com/z/stock-photo-hayward-ca-november-ml-bottle-of-van-gogh-gin-232645714.jpg
+        licence:
+        tags: |
+            #gin
+            #spirit
+            #naturalflavours
+
+    fiftyPounds:
+        name: Fifty Pounds
+        desc:
+        abv: 43.5%
+        image: http://image.shutterstock.com/z/stock-photo-saragossa-spain-august-photo-bottle-fifty-pounds-gin-this-is-a-premium-gin-london-466787174.jpg
+        licence:
+        tags: |
+            #gin
+            #spirit
+            #crisp
+            #smooth
+            #classic
+            #pineryJuniper
+            #woodyNotes
+
+    edinburgh:
+        name: Edinburgh Gin
+        desc:
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-gin-tonic-with-cucumber-209418493.jpg
+        licence:
+        tags: |
+            #gin
+            #spirit
+            #goldmedalwinning
+            #crisp
+            #gingerySpiciness
+
+
+    tanqueray:
+        name: Tanqueray
+        desc:
+        abv: 43.1
+        image: http://image.shutterstock.com/z/stock-photo-toronto-canada-september-bottle-of-tanqueray-gin-alcohol-on-a-bright-background-in-an-325025231.jpg
+        licence:
+        tags: |
+            #gin
+            #spirit
+            #dryfinish
+            #fruitnotes
+            #subtlejuniperflavours
+            #hintofspice
+
+    tanquerayNo10:
+        name: Tanqueray No. 10
+        desc:
+        abv: 47.3%
+        image: http://image.shutterstock.com/z/stock-photo-gin-with-lemon-and-juniper-branch-on-a-old-wooden-table-260256698.jpg
+        licence:
+        tags: |
+            #gin
+            #spirit
+            #dryfinish
+            #fruitnotes
+            #chamomile
+            #bestwhitespirit
+
+
+
+    ##vodka
+
+    smirnoffrecipeno21:
+        name: Smirnoff Recipe No. 21
+        desc: triple distilled vodka
+        abv: 37.5%
+        image: http://image.shutterstock.com/z/stock-photo-zagreb-croatia-december-bottle-of-smirnoff-red-vodka-smirnoff-brand-was-established-168998729.jpg
+        licence:
+        tags: |
+            #spirit
+            #vodka
+            #smirnoff
+            #charcoal
+            #tripledistilled
+            #no21
+            #red
+
+    smirnoffblue:
+        name: Smirnoff Blue
+        desc: triple distilled vodka filtered ten times.
+        abv: 40% to 50%
+        image: http://image.shutterstock.com/z/stock-photo-zagreb-croatia-december-bottle-of-smirnoff-blue-vodka-smirnoff-brand-was-established-169111181.jpg
+        licence: sh
+        tags: |
+            #spirit
+            #vodka
+            #100proof
+            #smirnoff
+            #blue
+            #tripledistilled
+
+    smirnoff:
+        name: Smirnoff
+        desc: Triple distilled vodka
+        abv: 40%-50%
+        image: http://image.shutterstock.com/z/stock-photo-hilversum-netherlands-january-smirnoff-is-a-brand-of-vodka-owned-and-produced-by-the-172500476.jpg
+        licence:
+        tags: |
+            #spirit
+            #vodka
+
+    greyGoose:
+        name: Grey Goose Vodka
+        desc: It is a smooth and pure vodka which is made by 100% french ingredients.
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-melbourne-australia-april-grey-goose-vodka-bottle-grey-goose-is-a-premium-vodka-brand-195958163.jpg
+        licence:
+        tags: |
+            #spirit
+            #vodka
+            #premium
+            #french
+            #france
+            #grain
+            #bacardi
+            #smooth
+
+    russianStandard:
+        name: Russian Standard Vodka
+        desc: This is a popular smooth, pure, neat vodka.
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-montreal-canada-february-bottle-of-vodka-the-russian-standard-later-called-original-260292551.jpg
+        licence:
+        tags: |
+            #spirit
+            #vodka
+            #russian
+            #russia
+            #grain
+            #smooth
+            #pure
+            #popular
+
+
+    absolutCitron:
+        name: Absolut Citron
+        desc: Twist of Lemon
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-winneconne-wi-march-a-bottle-of-absolut-citron-vodka-with-a-glass-of-ice-392204371.jpg
+        licence:
+        tags: |
+            #spirit
+            #vodka
+            #absolut
+            #lemon
+            #lime
+
+    absolutberriacai:
+        name: Absolut Berri Acai
+        desc: With fresh fruits.
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-alcoholic-drink-with-lemon-and-ice-on-a-old-wooden-table-234036709.jpg
+        licence:
+        tags: |
+            #spirit
+            #vodka
+            #absolut
+            #premium
+            #grain
+            #berriaccai
+            #berry
+            #citron
+
+    absolut:
+        name: Absolut Vodka
+        desc: A versatile and pure vodka, with a distinct character of grain, followed by a hint of dried fruit.
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-moscow-november-a-ml-bottle-of-absolut-citron-vodka-absolut-produced-in-sweden-russia-230866351.jpg
+        licence:
+        tags: |
+            #spirit
+            #vodka
+            #absolut
+            #premium
+            #grain
+
+    absolutMandrin:
+        name: Absolut Mandrin
+        desc: fruity, smooth and mellow flavoured vodka.
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-rishon-le-zion-israel-september-one-miniature-bottle-of-absolut-mandrin-vodka-alc-218128954.jpg
+        licence:
+        tags: |
+            #spirit
+            #vodka
+            #absolut
+            #premium
+            #grain
+            #mandrin
+            #orange
+
+    absolutMango:
+        name: Absolut Mango
+        desc: Mango and topical fruity flavoured full-bodied vodka.
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-cocktail-alcohol-tequila-gin-vodka-ice-lemon-lime-closeup-412564312.jpg
+        licence:
+        tags: |
+            #spirit
+            #vodka
+            #absolut
+            #premium
+            #grain
+            #mango
+
+    absolutorientapple:
+        name: Absolut Orient Apple
+        desc: Red apples with a hint of ginger.
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-close-up-view-of-bottle-of-vodka-with-glasses-standing-on-ice-on-black-206840308.jpg
+        licence:
+        tags: |
+            #spirit
+            #vodka
+            #absolut
+            #premium
+            #grain
+            #apple
+
+    absolutRaspberri:
+        name: Absolut Raspberri
+        desc: Intense and Fruity
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-winneconne-wi-march-a-bottle-of-absolut-raspberri-vodka-with-a-glass-of-ice-392204380.jpg
+        licence:
+        tags: |
+            #spirit
+            #vodka
+            #absolut
+            #premium
+            #raspberri
+            #grain
+
+    absolutpepper:
+        name: Absolut Pepper
+        desc: hop and spicy vodka
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-vodka-vodka-in-a-glass-with-ice-lime-a-cocktail-bar-alcohol-it-offers-an-alcoholic-beverage-377646268.jpg
+        licence:
+        tags: |
+            #spirit
+            #vodka
+            #absolut
+            #premium
+            #grain
+            #chilli
+            #greenbell
+            #jalapeno
+            #pepper
+            #spicy
+            #hot
+
+    absolutvanilia:
+        name: Absolut Vanilia
+        desc: A unique taste of vanilia, butterscotch and dark chocolates.
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-vodka-lime-or-gin-tonic-with-ice-in-rocks-glass-on-black-background-including-clipping-path-293515622.jpg
+        licence:
+        tags: |
+            #spirit
+            #vodka
+            #absolut
+            #premium
+            #grain
+            #vanilia
+            #butterscotch
+            #darkchocolate
+
+    absolutwildtea:
+        name: Absolut Wild Tea
+        desc: A floral smooth tea infused vodka.
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-cold-cocktail-with-lime-tonic-vodka-and-ice-on-dark-background-452504773.jpg
+        licence:
+        tags: |
+            #spirit
+            #vodka
+            #absolut
+            #premium
+            #grain
+            #redapples
+            #blacktea
+            #elderflower
+            #citrus
+            #smooth
+            #floral
+            #sweet
+            #dry
+
+    absolutpinky:
+        name: Absolut Pinky
+        desc: A hand blended floral vodka.
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-shot-glasses-of-vodka-on-a-wooden-table-addiction-to-alcohol-135575750.jpg
+        licence:
+        tags: |
+            #spirit
+            #vodka
+            #absolut
+            #premium
+            #grain
+            #rosepetals
+            #violets
+            #herbs
+            #spices
+            #floral
+
+
+    ciroc:
+        name: Ciroc Vodka
+        desc: Ciroc is the only vodka made from grapes and distilled 5 times over, a premium smooth vodka.
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-vodka-on-the-rocks-on-an-old-wooden-table-as-detailed-close-up-shot-350529977.jpg
+        licence:
+        tags: |
+            #spirit
+            #vodka
+            #ciroc
+            #premium
+            #grapes
+
+    cirocSnapFrost:
+        name: Ciroc Snap Frost (blue)
+        desc: Ciroc is the only vodka made from grapes and distilled 5 times over, a premium smooth vodka.
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-winneconne-wi-mayl-bottle-ciroc-vodka-with-a-glass-of-ice-on-an-isolated-background-415635598.jpg
+        licence:
+        tags: |
+            #spirit
+            #vodka
+            #ciroc
+            #premium
+            #blue
+            #cirocsnapfrost
+
+    cirocRedBerry:
+        name: Ciroc Red Berry (red)
+        desc: Ciroc is the only vodka made from grapes and distilled 5 times over, a premium smooth vodka.
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-vector-bottle-iced-of-vodka-isolated-on-white-background-vector-101494711.jpg
+        licence:
+        tags: |
+            #spirit
+            #vodka
+            #ciroc
+            #premium
+            #redberry
+
+    cirocCoconut:
+        name: Ciroc Coconut (silver)
+        desc: Ciroc is the only vodka made from grapes and distilled 5 times over, a premium smooth vodka.
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-vodka-310521785.jpg
+        licence:
+        tags: |
+            #spirit
+            #vodka
+            #ciroc
+            #premium
+            #coconut
+
+    cirocPeach:
+        name: Ciroc Peach (orange)
+        desc: Ciroc is the only vodka made from grapes and distilled 5 times over, a premium smooth vodka.
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-irvine-ca-september-a-bottle-of-ciroc-peach-vodka-an-ultra-premium-vodka-distilled-215935255.jpg
+        licence:
+        tags: |
+            #spirit
+            #vodka
+            #ciroc
+            #premium
+            #peach
+
+    cirocAmaretto:
+        name: Ciroc Amaretto (brown)
+        desc: Ciroc is the only vodka made from grapes and distilled 5 times over, a premium smooth vodka.
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-vodka-drinks-with-lemon-and-lime-garnish-381507967.jpg
+        licence:
+        tags: |
+            #spirit
+            #vodka
+            #ciroc
+            #premium
+            #amaretto
+
+    cirocpineapple:
+        name: Ciroc Pineapple (yellow)
+        desc: Ciroc is the only vodka made from grapes and distilled 5 times over, a premium smooth vodka.
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-alcoholic-beverage-cocktail-vodka-in-a-glass-with-ice-and-lime-366907307.jpg
+        licence:
+        tags: |
+            #spirit
+            #vodka
+            #ciroc
+            #premium
+            #pineapple
+
+    cirocapple:
+        name: Ciroc Apple
+        desc: Ciroc is the only vodka made from grapes and distilled 5 times over, a premium smooth vodka.
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-capri-alcoholic-cocktail-with-vodka-lime-juice-soda-tarragon-and-ice-black-background-404756950.jpg
+        licence:
+        tags: |
+            #spirit
+            #vodka
+            #ciroc
+            #premium
+            #apple
+
+    cirocMango:
+        name: Ciroc Mango
+        desc: Ciroc is the only vodka made from grapes and distilled 5 times over, a premium smooth vodka.
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-cold-cocktail-with-lime-lemon-tonic-vodka-and-ice-on-vintage-background-422747731.jpg
+        licence:
+        tags: |
+            #spirit
+            #vodka
+            #ciroc
+            #premium
+            #mango
+
+    threeOlives:
+        name: Three Olives
+        desc: This is a british vodka since 1998 with two types of flavoured and unflavoured flavours.
+        abv: 30% to 35% (flavoured)
+        image: http://image.shutterstock.com/z/stock-photo-rishon-le-zion-israel-july-one-bottle-of-three-olives-vodka-alc-ml-vodka-is-217648609.jpg
+        licence:
+        tags: |
+            #spirit
+            #vodka
+    popov:
+        name: Popov
+        desc: It is known great for mixing, its low range pricing and being the most popular vodka drink in the United States.
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-frozen-alcoholic-cocktail-refreshment-drink-with-vodka-and-lime-served-at-bar-370173401.jpg
+        licence:
+        tags: |
+            #spirit
+            #vodka
+            #premium
+            #smooth
+
+    ##flavouredVodka:
+
+    pb+J:
+        name: PB+J
+        desc: All-american combo revolution vodka.
+        abv:
+        image: http://image.shutterstock.com/z/stock-photo-vodka-in-bar-on-a-glass-table-398816929.jpg
+        licence:
+        tags: |
+            #spirit
+            #vodka
+
+    30Shots:
+        name: 30 Shots
+        desc: Selection of revolution vodka flavours.
+        abv:
+        image: http://image.shutterstock.com/z/stock-photo--selectiv-focus-glasses-of-cold-vodka-on-wooden-table-366465125.jpg
+        licence:
+        tags: |
+            #spirit
+            #vodka
+            #verycherry
+            #lovecandy
+            #xxxchilli
+            #saltedcaramelpopocorn
+            #bigapple
+            #fruitsalad
+            #whitechocolate
+            #DR.P
+            #colacube
+            #meltedicecream
+            #creamsoda
+            #pancakesyrup
+            #watermelon
+            #peanutbutterandjelly
+            #lemonandlime
+            #peach
+            #bubblegum
+            #doughnut
+            #blackjack
+            #jellybaby
+            #bakewelltart
+            #sourberry
+            #peradrop
+            #mango&pineapple
+            #raspberry
+            #rhubarb&custard
+            #strawberry
+            #xxxdasbomb
+            #birthdaycake
+            #dandelion&burdock
+
+    stick1:
+        name: Stick 1 Vodka (6 shots)
+        desc: Selection of revolution vodka flavours.
+        abv:
+        image: http://image.shutterstock.com/z/stock-photo-barman-at-work-preparing-cocktails-361905014.jpg
+        licence:
+        tags: |
+            #spirit
+            #vodka
+            #verycherry
+            #lovecandy
+            #xxxchilli
+            #saltedcaramelpopocorn
+            #bigapple
+            #fruitsalad
+
+    stick2:
+        name: Stick 2 Vodka (6 shots)
+        desc: Selection of revolution vodka flavours.
+        abv:
+        image: http://image.shutterstock.com/z/stock-photo-barman-at-work-preparing-cocktails-361905014.jpg
+        licence:
+        tags: |
+            #spirit
+            #vodka
+            #whitechocolate
+            #DR.P
+            #colacube
+            #meltedicecream
+            #creamsoda
+            #pancakesyrup
+
+    stick3:
+        name: Stick 3 Vodka (6 shots)
+        desc: Selection of revolution vodka flavours.
+        abv:
+        image: http://image.shutterstock.com/z/stock-photo-barman-at-work-preparing-cocktails-361905014.jpg
+        licence:
+        tags: |
+            #spirit
+            #vodka
+            #watermelon
+            #peanutbutterandjelly
+            #lemonandlime
+            #peach
+            #bubblegum
+            #doughnut
+
+    stick4:
+        name: Stick 4 Vodka (6 shots)
+        desc: Selection of revolution vodka flavours.
+        abv:
+        image: http://image.shutterstock.com/z/stock-photo-barman-at-work-preparing-cocktails-361905014.jpg
+        licence:
+        tags: |
+            #spirit
+            #vodka
+            #blackjack
+            #jellybaby
+            #bakewelltart
+            #sourberry
+            #peradrop
+            #mango&pineapple
+
+    stick5:
+        name: Stick 5 Vodka (6 shots)
+        desc: Selection of revolution vodka flavours.
+        abv:
+        image: http://image.shutterstock.com/z/stock-photo-barman-at-work-preparing-cocktails-361905014.jpg
+        licence:
+        tags: |
+            #spirit
+            #vodka
+            #raspberry
+            #rhubarb&custard
+            #strawberry
+            #xxxdasbomb
+            #birthdaycake
+            #dandelion&burdock
+
+    ##rum
+
+    appleton12YearsOldExtraRum:
+        name: Appleton 12 Years Old Extra Rum
+        desc: It is a brilliant rum with scents of walnut, nutmeg, orange peel and vanilla.
+        abv: 43%
+        image: http://image.shutterstock.com/z/stock-photo-fonte-venice-italy-february-rum-appleton-estate-y-o-cl-alc-rum-is-a-distilled-385380679.jpg
+        licence:
+        tags: |
+            #spirit
+            #rum
+            #bronzecolour
+            #walnutscents
+            #nutmegscents
+            #orangepeel
+            #vanilla
+            #bittersweet
+            #luscious
+
+    bacardiSuperior:
+        name: Bacardi Superior
+        desc: This light-bodied rum is produced by Bacardi Company and is used in many cocktails.
+        abv: 37.5%
+        image: http://image.shutterstock.com/z/stock-photo-zagreb-croatia-december-bacardi-superior-is-rum-made-by-bacardi-company-it-s-168998762.jpg
+        licence:
+        tags: |
+            #spirit
+            #rum
+            #white
+            #oakbarrels
+            #versatlie
+            #smooth
+            #tropicalfruitaroma
+            #almondscents
+
+    bacardiCarta:
+        name: Bacardi Carta Blanca
+        desc:
+        abv: 37.5%
+        image: http://image.shutterstock.com/z/stock-photo-poznan-poland-june-bacardi-white-rum-is-a-product-of-bacardi-limited-the-largest-443197393.jpg
+        licence:
+        tags: |
+            #spirit
+            #rum
+            #fresh
+            #zippylemonnotes
+            #smooth
+            #citrusflavour
+
+
+    bacardiOroGold:
+        name: Bacardi Oro or Gold
+        desc: This rum is soft and rich in taste with a long finish.
+        abv: 37.5%
+        image: http://image.shutterstock.com/z/stock-photo-zagreb-croatia-december-bacardi-gold-is-rum-made-by-bacardi-company-it-s-168998735.jpg
+        licence:
+        tags: |
+            #spirit
+            #rum
+            #amber
+            #hintofplums
+            #hintofapricot
+            #hintofnutmeg
+            #hintofvanilla
+            #soft
+            #rich
+            #very full
+
+    bacardi8:
+        name: Bacardi 8
+        desc: This is premium dark rum and is produced by Bacardi Company.
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-circa-april-berlin-the-logo-of-the-brand-bacardi-berlin-193972475.jpg
+        licence:
+        tags: |
+            #spirit
+            #rum
+            #dark
+            #malt
+            #sippingrum
+            #heavykick
+            #smokey
+            #warm
+            #herbs
+            #spicynotes
+
+    bacardiOakheart:
+        name: Bacardi Oakheart
+        desc: Bacardi Oakheart is a spiced based rum with notes of sugar, honey and burnt vanilla custard and cinnamon finish.
+        abv: 35% -37.5%
+        image: http://image.shutterstock.com/z/stock-photo-sumy-ukraine-nov-bacardi-oakheart-rum-bottle-bacardi-oakheart-spiced-rum-is-crafted-268463582.jpg
+        licence:
+        tags: |
+            #spirit
+            #rum
+            #bourboncasks
+            #vanilla
+            #cinnamon
+            #brownsugar
+            #burntvanillacustard
+            #honey
+            #herbsandspices
+            #smooth
+
+    bacardiBlack:
+        name: Bacardi Black
+        desc:
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-zagreb-croatia-december-bacardi-black-is-rum-made-by-bacardi-company-it-s-168998750.jpg
+        licence:
+        tags: |
+            #spirit
+            #rum
+            #rich
+            #smooth
+            #fullbodied
+
+
+    captainMorganSpiced:
+        name: Captain Morgan Spiced
+        desc: Captain Morgan Spiced is known for rich spices and natural flavours with clove and caramel notes.
+        abv: 35%
+        image: http://image.shutterstock.com/z/stock-photo-zagreb-croatia-december-bottle-of-captain-morgan-s-spiced-gold-rum-produced-by-diageo-168998741.jpg
+        licence:
+        tags: |
+            #spirit
+            #rum
+            #caramel
+            #clove
+            #vanilla
+            #spice
+            #oak
+            #smooth
+            #2011
+
+    captainMorganDarkRum:
+        name: Captain Morgan Dark
+        desc: Captain Morgan Dark Rum is known for its very dark and strong flavours.
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-bratislava-slovakia-circa-june-bottles-of-bacardi-havana-and-captain-morgan-rum-289207373.jpg
+        licence:
+        tags: |
+            #spirit
+            #rum
+            #smokycast
+            #strong
+            #dark
+            #rich
+            #smooth
+            #veryspicy
+            #toffee
+            #vanilla
+            #roundedoakennose
+
+    Gosling'sBlackSealRum:
+        name: Gosling's Black Seal
+        desc: Gosling's Black Seal Rum is very rich and flavourfull dark rum.
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-glass-of-scotch-whiskey-with-ice-cubes-on-a-rustic-wooden-table-copy-space-in-the-brown-background-372133042.jpg
+        licence:
+        tags: |
+            #spirit
+            #rum
+            #smooth
+            #rich
+            #dark
+            #bermuda
+            #1806
+            #black
+            #butterscotch
+            #vanilla
+            #caramel
+
+    havanaClub15YearOld:
+        name: Havana Club 15 Year Old
+        desc: This is smooth, fruty and refreshing popular rum with tannin and fruits.
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-trinidad-cuba-february-habana-club-advertisement-sign-turned-off-in-daytime-havana-club-is-388703626.jpg
+        licence:
+        tags: |
+            #spirit
+            #rum
+            #banana
+            #fig
+            #oak
+            #plum
+            #dark
+            #amber
+            #vibrant
+            #tannin
+
+    havanaClub3YearOld:
+        name: Havana Club 3 Year Old
+        desc: This a light and popular Cuban rum which is predominantly used in coktails such as mojito.
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-zagreb-croatia-december-havana-club-anejo-anos-cuban-rum-brand-was-established-in-168998771.jpg
+        licence:
+        tags: |
+            #spirit
+            #rum
+            #sweet
+            #woodysmell
+            #caramel
+            #vanilla
+            #light
+            #3
+            #mixer
+
+    havanaClub:
+        name: Havana Club Anejo Blanco
+        desc:
+        abv: 37.5%
+        image: http://image.shutterstock.com/z/stock-photo-prague-cz-april-bottle-of-havana-club-rum-established-in-in-santa-cruz-del-norte-281176733.jpg
+        licence:
+        tags: |
+            #spirit
+            #rum
+            #1
+            #mixer
+
+
+    havanaClubAnejo:
+        name: Havana Club Anejo Especial
+        desc:
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-zaragoza-spain-december-the-photo-of-a-bottle-of-havana-club-rum-brand-which-is-made-168564851.jpg
+        licence:
+        tags: |
+            #spirit
+            #rum
+            #mixer
+
+    havanaClubAnejoRes:
+        name: Havana Club Anejo Reserva
+        desc:
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-havana-cuba-may-bottle-of-havana-club-rum-established-in-in-cuba-havana-club-is-443741896.jpg
+        licence:
+        tags: |
+            #spirit
+            #rum
+            #mixer
+
+    havanaClubSel:
+        name: Havana Club Seleccion de Maestros
+        desc:
+        abv: 45%
+        image: http://image.shutterstock.com/z/stock-photo-london-uk-september-havana-club-rum-selection-de-maestros-is-new-superior-rum-from-cuba-479625706.jpg
+        licence:
+        tags: |
+            #spirit
+            #rum
+            #mixer
+            #doublegoldmedal
+
+    havanaClub7YearOld:
+        name: Havana Club 7 Year Old
+        desc: It is a full-bodied, fruity, spicy and vanilla flavoured rum.
+        abv:
+        image: http://image.shutterstock.com/z/stock-photo-trinidad-cuba-february-habana-club-advertisement-sign-turned-off-in-daytime-havana-club-is-388703626.jpg
+        licence:
+        tags: |
+            #spirit
+            #rum
+            #delicatetaste
+            #7
+            #choclate
+            #cocoa
+            #sugar
+            #vanilla
+            #spices
+            #honey
+
+    krakenBlackSpicedRum:
+        name: Kraken Black Spiced
+        desc: Kraken Black Spiced Rum is a famous, rich and smooth Caribbean rum.
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-whiskey-with-ice-in-rocks-glass-isolated-on-black-background-with-clipping-path-293586833.jpg
+        licence:
+        tags: |
+            #spirit
+            #rum
+            #spice
+            #strong
+            #rich
+            #black
+            #smooth
+            #sweet
+            #molasses
+            #cinnamon
+            #ginger
+            #clove
+
+    lambNavyRum:
+        name: Lamb's Navy
+        desc: This rum is known for its rich flavour, sweet caramel and dried fruity notes.
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-a-glass-of-rum-1424591.jpg
+        licence:
+        tags: |
+            #spirit
+            #rum
+            #tannin
+            #smooth
+
+    matusalemClasico10Year:
+        name: Matusalem Clasico 10 year
+        desc: It is a ten years old classic golden rum.
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-dark-and-stormy-rum-cocktail-with-lime-and-ginger-beer-385915789.jpg
+        licence:
+        tags: |
+            #spirit
+            #rum
+            #smooth
+            #dominicanrepublic
+
+    matusalemSolera7:
+        name: Matusalem Solera 7
+        desc:
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-riga-latvia-aug-matusalem-solera-caribbean-dark-rum-bottle-at-wooden-table-this-304529720.jpg
+        licence:
+        tags: |
+            #spirit
+            #rum
+            #smooth
+            #dominicanrepublic
+
+    malibu:
+        name: Malibu
+        desc: This is a smooth, pleasant and delightful rum with coconut flavour.
+        abv: 21%
+        image: http://image.shutterstock.com/z/stock-photo-poznan-poland-july-malibu-rum-is-a-flavored-rum-based-liqueur-made-with-natural-461772358.jpg
+        licence:
+        tags: |
+            #spirit
+            #rum
+
+
+    matusalemPlatinoWhite:
+        name: Matusalem Platino White
+        desc: This is a smooth, pleasant and delightful white rum.
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-portrait-of-pair-of-glasses-of-carribean-rum-carribean-rum-glasses-449118757.jpg
+        licence:
+        tags: |
+            #spirit
+            #rum
+            #white
+
+    mountGayEclipse:
+        name: Mount Gay Eclipse
+        desc: This is a distinctive floral and fruity notes of apricot and banana golden rum.
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-milk-chocolate-with-nuts-and-raisins-with-dark-jamaican-rum-selective-focus-391209367.jpg
+        licence:
+        tags: |
+            #spirit
+            #rum
+            #smokey
+            #warm
+            #mediumbody
+            #brightfinish
+
+    mountGayExtraOldRum:
+        name: Mount Gay Extra Old Rum
+        desc: This is a fully flavoured light-bodied and the oldest rum in the world.
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-two-glasses-of-scotch-whiskey-with-ice-cubes-background-fades-to-white-copy-space-372133039.jpg
+        licence:
+        tags: |
+            #spirit
+            #rum
+            #spicyapricot
+            #banana
+            #cinnamon
+            #ginger
+
+    myersRum:
+        name: Myers's Rum
+        desc: This is smooth spicy sweet taste Jamaican rum  with a smokey tobacco nose.
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-rishon-le-zion-israel-july-one-bottle-of-myers-s-rum-ml-original-dark-214516612.jpg
+        licence:
+        tags: |
+            #rum
+            #spirit
+            #smokeytobacconose
+            #smooth
+            #spicy
+            #sweet
+            #reddishorange
+
+    sailorJerry:
+        name: Sailor Jerry
+        desc: Sailor Jerry is a Caribbean bold and smooth rum with natural spices.
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-rum-and-cola-and-ice-dark-wood-background-selective-focus-shallow-depth-of-field-431858584.jpg
+        licence:
+        tags: |
+            #spirit
+            #rum
+            #bold
+            #smooth
+            #butterytoffee
+            #cinnamon
+            #vanilla
+            #nutmeg
+
+    wrayAndNephewOverproof:
+        name: Wray & Nephew Overproof
+        desc: This is white, crystal clear, top selling and high strength rum.
+        abv: 63%
+        image: http://image.shutterstock.com/z/stock-photo-alcoholic-drink-with-lemon-and-ice-on-a-old-wooden-table-234036709.jpg
+        licence:
+        tags: |
+            #spirit
+            #rum
+            #white
+            #topselling
+            #awardwinning
+            #highalcoholcontent
+            #spice
+            #finishislong
+
+   ##whiskey/bourbon
+
+    ardbeg10YearOld:
+        name: Argbeg 10 Year Old
+        desc: This is known in the world as the peatiest, smokey and single malt whiskey.
+        abv: 46%
+        image: http://image.shutterstock.com/z/stock-photo-whiskey-with-ice-on-a-wooden-table-170154842.jpg
+        licence:
+        tags: |
+            #spirit
+            #whiskey
+            #peatiest
+            #smokiest
+            #singlemalt
+            #naturalsweet
+
+    bell8YearOld:
+        name: Bell's 8 Year Old
+        desc: This is UK's faviourite and the most popular blended whiskey.
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-two-glasses-with-ice-and-whiskey-253255687.jpg
+        licence:
+        tags: |
+            #spirit
+            #whiskey
+            #soft
+            #floralnote
+            #herbs
+            #mediumbody
+            #hintofwood
+            #spice
+
+    gentlemanJack:
+        name: Gentleman Jack
+        desc: This is cleaner, refined, smooth and double charcoal mellowed whiskey.
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-circa-november-gdansk-gentleman-jack-rare-tennessee-whiskey-isolated-on-white-background-350401637.jpg
+        licence:
+        tags: |
+            #spirit
+            #whiskey
+            #smooth
+            #doublecharcoalmellowed
+            #refined
+            #cleaner
+            #smoothfinish
+
+    glenfiddich:
+        name: Glenfiddich
+        desc: Glenfiddich is the world's most awarded single malt Scotch whiskey.
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-toronto-december-glenfiddich-single-malt-scotch-whiskey-on-the-rocks-glenfiddich-169172648.jpg
+        licence:
+        tags: |
+            #spirit
+            #whiskey
+            #mostawarded
+            #singlemalt
+            #herbs
+            #greenapples
+            #sweet
+
+    glenlivet12YearOldMalt:
+        name: Glenlivet 12 Year Old Malt
+        desc: Glenlivet 12 Year Old Malt is known for one of the most famous malts around the world.
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-kiev-ukraine-november-the-glenlivet-years-old-single-malt-scotch-whisky-bottles-343194428.jpg
+        licence:
+        tags: |
+            #spirit
+            #whiskey
+            #smooth
+            #sweet
+            #floralnotes
+            #cleansoft
+            #smooth
+            #longfinish
+
+    glenmorangieOriginal:
+        name: Glenmorangie original
+        desc: This is delicious complex single malt elegant Highland Scotch whiskey.
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-rockaway-nj-usa-march-bottle-box-and-glass-of-glenmorangie-single-malt-whisky-high-394290442.jpg
+        licence:
+        tags: |
+            #spirit
+            #whiskey
+            #singlemalt
+            #citrusaroma
+            #vanilla
+            #longfinish
+            #orange
+            #peach
+
+    jameson:
+        name: Jameson
+        desc: This is triple distilled Irish whiskey with incredible smooth finish.
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-reading-moldova-april-one-bottle-of-jameson-whiskey-triple-distilled-liter-on-black-407241451.jpg
+        licence:
+        tags: |
+            #spirit
+            #whiskey
+            #sherryundertones
+            #woody
+            #smoothfinish
+
+    JAndB:
+        name: J & B
+        desc: This is light bodied fresh whiskey.
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-varna-bulgaria-march-photo-of-bottle-of-j-b-blended-scotch-whisky-j-b-rare-blend-the-326055629.jpg
+        licence:
+        tags: |
+            #spirit
+            #whiskey
+            #lightbodied
+            #idealformixing
+            #nuttyonnose
+
+    jackDaniels:
+        name: Jack Daniel's
+        desc: Jack Daniel's is the top selling American
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-chisinau-moldova-november-photo-of-bottle-of-jack-daniel-s-tennessee-whiskey-jack-354643148.jpg
+        licence:
+        tags: |
+            #spirit
+            #whiskey
+            #topselling
+
+    jackDanielTennesseHoney:
+        name: Jack Daniel's Tennesse Honey
+        desc: It is tasty popular Jack Daniel's honey and whiskey liqueur.
+        abv: 35%
+        image: http://image.shutterstock.com/z/stock-photo-reading-england-october-bottle-of-jack-daniel-s-honey-tennessee-whiskey-jack-daniel-s-is-a-328746383.jpg
+        licence:
+        tags: |
+            #spirit
+            #whiskey
+            #honey
+            #herbal
+            #floral
+
+    laphroaig10YearOld:
+        name: Laphroaig 10 Year Old
+        desc: Laphroaig 10 Year Old is a full-bodied smoky classic single malt whiskey.
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-single-glass-of-whisky-bourbon-on-the-rocks-golden-on-old-rustic-wooden-surface-open-space-315690578.jpg
+        licence:
+        tags: |
+            #spirit
+            #whiskey
+            #smokey
+            #sweet
+            #hintofsalt
+            #seaweedy
+            #peaty
+            #longwarmfinish
+
+    laphroaig:
+        name: Laphroaig Quarter Cask
+        desc:
+        abv: 48%
+        image: http://image.shutterstock.com/z/stock-photo-winneconne-wi-march-a-bottle-of-laphroaig-scotch-whisky-with-a-glass-of-ice-393137659.jpg
+        licence:
+        tags: |
+            #spirit
+            #whiskey
+
+    famousGrouse:
+        name: Famous Grouse Scotch
+        desc:
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-whiskey-drinks-on-wood-146663039.jpg
+        licence:
+        tags: |
+            #spirit
+            #whiskey
+
+    jamerson:
+        name: Jamerson
+        desc: Irish whiskey
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-glass-with-whiskey-close-up-shot-on-rustic-wooden-background-267136835.jpg
+        licence:
+        tags: |
+            #spirit
+            #whiskey
+
+    macallanGold:
+        name: Macallan Gold
+        desc: Macallan Gold is a light and easy to drink whiskey and is also known for creating perfect whiskey cocktails.
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-glass-of-scotch-whiskey-and-ice-on-the-background-of-the-bar-148574753.jpg
+        licence:
+        tags: |
+            #spirit
+            #whiskey
+            #vanilla
+            #citrusflavour
+            #singlemalt
+            #sherryoakcask
+            #hintofginger
+            #hintofcinnamon
+
+    macallan:
+        name: Macallan Whiskey Maker's Edition
+        desc:
+        abv: 42.8%
+        image: http://image.shutterstock.com/z/stock-photo-kuala-lumpur-february-macallan-is-the-leading-single-malt-highland-scotch-whiskey-brand-255939163.jpg
+        licence:
+        tags: |
+            #spirit
+            #whiskey
+            #fruity
+            #sweet
+            #spicy
+
+    macallan12:
+        name: Macallan 12 Year Old
+        desc:
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-rockaway-nj-march-bottle-case-and-glass-of-macallan-single-malt-whisky-aged-years-424660108.jpg
+        licence:
+        tags: |
+            #spirit
+            #whiskey
+            #smooth
+            #driedfruits
+            #woodsmoke
+
+    makersMark:
+        name: Maker's Mark
+        desc: Maker's Mark is a rich flavourfull handmade whiskey from Loretto, Kentucky and is growing quite popular in the UK.
+        abv: 45%
+        image: http://image.shutterstock.com/z/stock-photo-irvine-ca-january-a-bottle-of-maker-s-mark-whiskey-on-black-with-reflection-the-first-244682032.jpg
+        licence:
+        tags: |
+            #spirit
+            #whiskey
+            #bourbon
+            #palestrawcolour
+            #caramel
+            #oak
+            #sweet
+            #vanilla
+            #cinnamon
+
+    monkeyShouldermalt:
+        name: Monkey Shoulder Malt
+        desc: Monkey Shoulder Malt is an easy-drinking, smooth, rich and triple malt Scotch whiskey.
+        abv:
+        image: http://image.shutterstock.com/z/stock-photo-reading-england-november-william-grant-sons-in-introduced-a-premium-blended-malt-339340100.jpg
+        licence:
+        tags: |
+            #spirit
+            #whiskey
+            #triplemalt
+            #easytodrink
+            #vanilla
+            #spicyhints
+            #smooth
+            #rich
+            #zestyorange
+            #honey
+            #spicedoak
+
+    southernComfort:
+        name: Southern Comfort
+        desc: Southern Comfort is uinquely smooth and quite popular American liqueur.
+        abv: 35%
+        image: http://image.shutterstock.com/z/stock-photo-leeds-january-southern-comfort-whiskey-on-a-golden-background-january-in-leeds-uk-247108714.jpg
+        licence:
+        tags: |
+            #spirit
+            #whiskey
+            #bourbon
+            #spice
+            #peach
+
+    aberfeldy:
+        name: Aberfeldy 12 Year Old
+        desc:
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-rockaway-nj-usa-march-bottle-of-aberfeldy-single-malt-whisky-aged-years-aberfeldy-390048562.jpg
+        licence:
+        tags: |
+            #spirit
+            #whiskey
+            #fruity
+
+    woodfordReserve:
+        name: Woodford Reserve Double Oaked
+        desc: this is a full-bodied flavourfull bourbon with long and creamy finish.
+        abv: 43.5%
+        image: http://image.shutterstock.com/z/stock-photo-glass-with-whiskey-on-wooden-table-128243333.jpg
+        licence:
+        tags: |
+            #spirit
+            #whiskey
+            #bourbon
+            #longfinish
+            #richnotesofdarkfruit
+            #caramel
+            #honey
+            #vanilla
+            #spices
+
+    rittenhouseRye:
+        name: Rittenhouse Rye
+        desc: Rittenhouse Rye is a classic crispy rye whiskey with woody aromas.
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-copper-forged-barrel-and-a-glass-of-whiskey-and-ice-on-a-old-table-355512758.jpg
+        licence:
+        tags: |
+            #spirit
+            #whiskey
+            #woodyaroma
+            #lanolin
+            #buttercream
+            #toasty
+            #fruity
+            #honeyed
+            #finishmaplelike
+            #ryflavour
+            #crisp
+
+
+    wildTurkey:
+        name: Wild Turkey
+        desc: Wild Turkey is a premium American bourbon produced in Lawrenceburg, Kentucky.
+        abv: 40.5%
+        image: http://image.shutterstock.com/z/stock-photo-whiskey-glass-on-the-old-wooden-table-335428061.jpg
+        licence:
+        tags: |
+            #spirit
+            #whiskey
+            #bourbon
+            #rye
+            #charredcask
+            #explosionofvanilla
+            #explosionofcaramel
+            #hintofhoney
+            #hintoforange
+
+    ##tequila
+
+    patronSilver:
+        name: Patron Silver
+        desc: This is light, fresh and smooth ultra premium tequila which is produced in the traditional handmade way.
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-minneapolis-minnesota-united-states-of-america-july-patron-silver-tequila-patron-is-a-208343131.jpg
+        licence:
+        tags: |
+            #spirit
+            #tequila
+            #light
+            #smooth
+            #fresh
+            #ultrapremium
+            #traditionalhandmade
+            #crystalclear
+            #young
+            #joven
+            #smooth
+            #oakyflavour
+
+    patronXoCafe:
+        name: Patron Xo Cafe
+        desc: This tequila is known for its unique rich flavour of roasted coffee with  notes of chocolate and vanilla.
+        abv: 35%
+        image: http://image.shutterstock.com/z/stock-photo-mexican-gold-tequila-with-lime-and-salt-on-wooden-table-selective-focus-copyspace-453459538.jpg
+        licence:
+        tags: |
+            #spirit
+            #tequila
+            #sweet
+            #darkrichbrown
+            #freshcoffee
+            #hintofchocolate
+            #hintofvanilla
+
+    ##Brandy
+
+    courvoisier:
+        name: Courvoisier
+        desc:
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-toronto-december-bottle-of-vs-courvoisier-cognac-imported-liquor-from-france-169172627.jpg
+        licence: shutterstock
+        tags: |
+            #spirit
+            #brandy
+            #french
+            #cognac
+            #oakyflavour
+
+    hennessey:
+        name: Hennessey
+        desc:
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-moscow-russia-august-photo-of-a-bottle-of-hennessy-cognac-hennessy-one-of-the-214110865.jpg
+        licence: shutterstock
+        tags: |
+            #spirit
+            #brandy
+            #french
+            #cognac
+            #spice
+
+    remyMartin:
+        name: Remi Martin
+        desc:
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-new-york-ny-october-bottle-of-remy-martin-on-display-at-the-the-house-of-remy-martin-330276197.jpg
+        licence: shutterstock
+        tags: |
+            #spirit
+            #brandy
+            #french
+            #cognac
+            #apricot
+            #vanilla
+            #smoothfinish
+            #aperitif
+            #digestif
+
+    remyMartin1738:
+        name: Remi Martin 1738
+        desc:
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-new-york-ny-october-bottle-of-remy-martin-on-display-at-the-the-house-of-remy-martin-330276122.jpg
+        licence: shutterstock
+        tags: |
+            #spirit
+            #brandy
+            #french
+            #cognac
+            #plum
+            #fig
+            #oakynotes
+            #toffee
+            #chocolate
+
+    busnel:
+        name: Busnel
+        desc:
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-zagreb-croatia-december-bottle-of-busnel-s-calvados-apple-brandy-from-french-region-169020194.jpg
+        licence: shutterstock
+        tags: |
+            #spirit
+            #brandy
+            #french
+            #cognac
+            #elegant
+            #sweet
+            #balanced
+            #vanilla
+
+    ###Liqueur
+
+    disaronno:
+        name: Disaronno Amaretto
+        desc: Italy's most celebrated Liqueur.
+        abv: 28%
+        image: http://image.shutterstock.com/z/stock-photo-italian-amaretto-liqueur-with-dry-almonds-on-the-old-wooden-background-selective-focus-366777263.jpg
+        licence: shutterstock
+        tags: |
+            #spirit
+            #liqueur
+            #almond
+
+    tiaMaria:
+        name: Tia Maria
+        desc:
+        abv: 20%
+        image: http://image.shutterstock.com/z/stock-photo-licorice-liqueur-with-pure-blocks-and-roots-on-wooden-table-256384909.jpg
+        licence: shutterstock
+        tags: |
+            #spirit
+            #liqueur
+
+    cointreau:
+        name: Cointreau
+        desc:
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-refreshing-boozy-sidecar-cocktail-with-a-sugar-rim-460011658.jpg
+        licence: shutterstock
+        tags: |
+            #spirit
+            #liqueur
+            #bitterSweet
+            #orange
+
+    pernod:
+        name: Pernod
+        desc:
+        abv: 40%
+        image: https://image.shutterstock.com/z/stock-photo-variety-of-colorful-cocktails-over-starry-black-background-257162248.jpg
+        licence: shutterstock
+        tags: |
+            #spirit
+            #liqueur
+            #clearGreenColor
+            #anise
+            #coriander
+            #mint
+
+    baileys:
+        name: Baileys
+        desc:
+        abv: 17%
+        image: http://image.shutterstock.com/z/stock-photo-irish-cream-liqueur-detailed-close-up-shot-on-wooden-background-393037834.jpg
+        licence: shutterstock
+        tags: |
+            #spirit
+            #liqueur
+            #dairyCream
+            #desserts
+            #cocoa
+
+    grandMarnier:
+        name: Grand Marnier
+        desc:
+        abv: 40%
+        image: http://image.shutterstock.com/z/stock-photo-pouring-whiskey-drink-into-glass-146663030.jpg
+        licence: shutterstock
+        tags: |
+            #spirit
+            #liqueur
+            #bitterOrange
+
+    jagermeister:
+        name: Jagermeister
+        desc:
+        abv: 35%
+        image: http://image.shutterstock.com/z/stock-photo-jagermeister-alcoholic-drink-and-orange-in-ice-glasses-488647417.jpg
+        licence: shutterstock
+        tags: |
+            #spirit
+            #liqueur
+            #rareherbs
+            #smooth
+            #richflavour
+            #bitterSweetFinish
+
+    chambord:
+        name: Chambord
+        desc:
+        abv: 16.5%
+        image: http://image.shutterstock.com/z/stock-photo-ice-berry-tea-with-raspberries-blackberries-and-blueberries-selective-focus-371962279.jpg
+        licence: shutterstock
+        tags: |
+            #spirit
+            #liqueur
+            #blackberries
+            #redberries
+            #honey
+
+    archers:
+        name: Archers
+        desc:
+        abv: 18%
+        image: http://image.shutterstock.com/z/stock-photo-sweet-liqueur-with-honey-and-alcohol-347421740.jpg
+        licence: shutterstock
+        tags: |
+            #spirit
+            #liqueur
+            #sweet
+            #zingyPeach
+
+
+    midori:
+        name: Midori
+        desc:
+        abv: 20%
+        image: http://image.shutterstock.com/z/stock-photo-closeup-of-two-green-apple-martinis-167447768.jpg
+        licence: shutterstock
+        tags: |
+            #spirit
+            #liqueur
+            #fruitLiqueur
+            #melon
+            #japan
+            #resfreshing
+            #sweet
+
+    #NonAlcoholic
+
+    water:
+        name: Water
+        image: http://image.shutterstock.com/z/stock-photo-glass-of-water-on-a-table-in-a-restaurant-309077984.jpg
+        licence:
+        tags: |
+            #softDrink
+            #nonAlcoholic
+
+    juice:
+        name: Juice
+        image: http://image.shutterstock.com/z/stock-photo-glasses-of-tasty-fresh-juice-on-wooden-table-215590762.jpg
+        licence:
+        tags: |
+            #nonAlcoholic
+            #softDrink
+
+    lemonade:
+        name: Lemonade
+        image: http://image.shutterstock.com/z/stock-photo-cold-lemonade-with-ice-394709320.jpg
+        licence:
+        tags: |
+            #nonAlcoholic
+            #softDrink
+
+    j2O:
+        name: J2O's
+        image: http://image.shutterstock.com/z/stock-photo-swindon-uk-january-j-o-apple-and-rasberry-drink-on-ice-over-a-white-background-173229959.jpg
+        licence:
+        tags: |
+            #nonAlcoholic
+            #softDrink
+
+    appletiser:
+        name: Appletiser
+        image: http://image.shutterstock.com/z/stock-photo-glass-of-apple-juice-and-apples-on-wooden-table-on-nature-background-284283374.jpg
+        licence:
+        tags: |
+            #nonAlcoholic
+            #softDrink
+
+
+    elderflower:
+        name: Sparkling elderflower
+        image: http://image.shutterstock.com/z/stock-photo-soft-drink-with-ice-cubes-from-elderflower-syrup-juice-champagne-soda-and-mint-in-a-glass-on-a-437397631.jpg
+        licence:
+        tags: |
+            #softDrink
+            #nonAlcoholic
+
+    tonic:
+        name: Tonic
+        image: http://image.shutterstock.com/z/stock-photo-glass-of-cold-mineral-water-on-the-table-of-the-beach-background-145927007.jpg
+        licence:
+        tags: |
+            #softDrink
+            #softDrink
+            #nonAlcoholic
+
+
+    limeAndSoda:
+        name: Lime & Soda
+        image: http://image.shutterstock.com/z/stock-photo-lemonade-with-fresh-lemon-and-mint-by-lemon-448883218.jpg
+        licence:
+        tags: |
+            #softDrink
+            #nonAlcoholic
+
+    gingerBeer:
+        name: Ginger NonAlcoholic Beer
+        image: http://image.shutterstock.com/z/stock-photo-refreshing-golden-ginger-beer-with-lime-and-mint-286676003.jpg
+        licence:
+        tags: |
+            #gingerBeer
+            #nonAlcoholic
+
+    coke:
+        name: Coke or Diet Coke
+        image: http://image.shutterstock.com/z/stock-photo-bangkok-thailand-february-coca-cola-classic-in-a-glass-bottle-isolated-on-white-376332511.jpg
+        licence:
+        tags: |
+            #dietCoke
+            #nonAlcoholic
+
+    babyJuice:
+        name: Baby Bottled Juices
+        image: http://image.shutterstock.com/z/stock-photo-the-different-juices-in-bottles-jars-of-baby-puree-colored-spoons-and-rubber-duck-on-a-background-425729809.jpg
+        licence:
+        tags: |
+            #nonAlcoholic
+            #softDrink
+
+    squash:
+        name: Squashes
+        image: http://image.shutterstock.com/z/stock-photo-cool-fresh-juices-in-glasses-fruit-slices-and-straw-outdoors-227264635.jpg
+        licence:
+        tags: |
+            #nonAlcoholic
+            #softDrink
+
+    ribena:
+        name: Ribena
+        image: http://image.shutterstock.com/z/stock-photo-kuala-lumpur-malaysia-may-ribena-is-a-concentrated-soft-and-fruit-drink-by-british-422805241.jpg
+        licence:
+        tags: |
+            #softDrink
+            #nonAlcoholic
+
+    coffee:
+        name: Coffee
+        image: http://image.shutterstock.com/z/stock-photo-coffee-espresso-cup-of-coffee-135404954.jpg
+        licence:
+        tags: |
+            #softDrink
+            #nonAlcoholic
+
+    cappuccino:
+        name: Cappuccino
+        image: http://image.shutterstock.com/z/stock-photo-cup-of-cappucino-418439770.jpg
+        licence: shutterstock
+        tags: |
+            #softDrink
+            #nonAlcoholic
+
+    latte:
+        name: Latte
+        image: http://www.shutterstock.com/pic-453523804/stock-photo-cup-of-latte-coffee.html?src=0rFmFaIjurchLRPxBAZ_aw-2-97
+        licence: shutterstock
+        tags: |
+            #softDrink
+            #nonAlcoholic
+
+    espresso:
+        name: Espresso
+        image: http://image.shutterstock.com/z/stock-photo-professional-espresso-machine-pouring-strong-looking-fresh-coffee-into-a-neat-ceramic-cup-325766324.jpg
+        licence:
+        tags: |
+            #softDrink
+            #nonAlcoholic
+
+    espressoDoouble:
+        name: Double Esspresso
+        image: http://image.shutterstock.com/z/stock-photo-espresso-double-shot-on-wood-background-vintage-tone-shallow-depth-of-field-370679507.jpg
+        licence:
+        tags: |
+            #softDrink
+            #nonAlcoholic
+
+    tea:
+        name: Tea
+        image: http://image.shutterstock.com/z/stock-photo-porcelain-cup-of-tea-with-milk-on-wicker-background-385203448.jpg
+        licence:
+        tags: |
+            #softDrink
+            #nonAlcoholic
+
+    herbalTea:
+        name: Herbal Tea
+        image: http://image.shutterstock.com/z/stock-photo-mix-of-bio-herbal-tea-215467822.jpg
+        licence:
+        tags: |
+            #softDrink
+            #nonAlcoholic
+
+    hotChocolate:
+        name: Hot Chocolate
+        image: http://image.shutterstock.com/z/stock-photo--hot-cocoa-250629130.jpg
+        licence:
+        tags: |
+            #softDrink
+            #nonAlcoholic
+
+    blackCoffee:
+        name: Black coffee
+        image: http://image.shutterstock.com/z/stock-photo-black-coffee-272680700.jpg
+        licence:
+        tags: |
+            #softDrink
+            #nonAlcoholic
+
+
+    ### Cocktail
+
+    pornstarMartini:
+        name: Pornstar Martini
+        desc:
+        abv:
+        image: http://image.shutterstock.com/z/stock-photo-message-in-a-bottle-pornstar-martini-and-passionfruit-cocktails-or-longdrinks-garnished-with-463834979.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    espressoMartini:
+        name: Espresso Martini
+        desc:
+        abv:
+        image: http://image.shutterstock.com/z/stock-photo-espresso-cocktail-served-on-table-239572636.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    mojito:
+        name: Mojito
+        desc:
+        abv:
+        image: http://image.shutterstock.com/z/stock-photo-mojito-cocktail-on-the-bar-309614309.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    cosmo:
+        name: Cosmo
+        desc:
+        abv:
+        image: http://image.shutterstock.com/z/stock-photo-barman-preparing-and-pouring-red-cocktail-in-martini-class-cosmopolitan-cocktail-on-metal-370722995.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    bloodyMary:
+        name: Bloody Mary
+        desc:
+        abv:
+        image: http://image.shutterstock.com/z/stock-photo-bloody-mary-cocktail-on-the-wooden-background-314102237.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    redSnapper:
+        name: Red Snapper
+        desc:
+        abv:
+        image: http://image.shutterstock.com/z/stock-photo-red-alcohol-cosmopolitan-cocktail-decorated-with-citrus-lemon-in-martini-cocktails-glass-on-wooden-357394121.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    appletini:
+        name: Appletini
+        desc:
+        abv:
+        image: http://image.shutterstock.com/display_pic_with_logo/1860644/321634592/stock-photo-martini-321634592.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    perfectLady:
+        name: Perfect Lady
+        desc:
+        abv:
+        image: http://image.shutterstock.com/z/stock-photo-refreshing-boozy-sidecar-cocktail-with-a-sugar-rim-460011658.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    dirtyMartini:
+        name: Dirty Martini
+        desc:
+        abv:
+        image: http://image.shutterstock.com/display_pic_with_logo/2335796/288573920/stock-photo-dirty-martini-cocktail-on-bar-counter-288573920.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    gibson:
+        name: Gibson
+        desc:
+        abv:
+        image: http://image.shutterstock.com/display_pic_with_logo/82050/252135664/stock-photo-gibson-mixed-drink-with-onions-252135664.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    gimlet:
+        name: Gimlet
+        desc:
+        abv:
+        image: http://image.shutterstock.com/z/stock-photo-close-up-of-glass-with-margarita-cocktail-garnished-with-salt-rim-lime-and-olives-on-a-table-400839328.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    ginFizz:
+        name: Gin Fizz
+        desc:
+        abv:
+        image: http://image.shutterstock.com/z/stock-photo-cocktail-caipirinha-gin-294391469.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    gin&Tonic:
+        name: Gin & Tonic
+        desc:
+        abv:
+        image: http://image.shutterstock.com/display_pic_with_logo/1860644/324978458/stock-photo-gin-tonic-324978458.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    greyhound:
+        name: Greyhound
+        desc:
+        abv:
+        image: http://image.shutterstock.com/display_pic_with_logo/137002/199422095/stock-photo-grapefruit-cocktail-in-glasses-on-bright-background-199422095.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    martini:
+        name: Martini
+        desc:
+        abv:
+        image: http://image.shutterstock.com/z/stock-photo-martini-cocktail-drink-with-olives-garnish-and-tools-on-rusty-background-373276849.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    negroni:
+        name: Negroni
+        desc:
+        abv:
+        image: http://image.shutterstock.com/display_pic_with_logo/596689/449439961/stock-photo-homemade-boozy-negroni-cocktail-with-and-orange-twist-449439961.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    pimm:
+        name: Pimm's Cup No. 1
+        desc:
+        abv:
+        image: http://image.shutterstock.com/display_pic_with_logo/1912/288654305/stock-photo-traditional-pimms-and-lemonade-288654305.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    singaporeSling:
+        name: Singapore Sling
+        desc:
+        abv:
+        image: http://image.shutterstock.com/display_pic_with_logo/496000/136166000/stock-photo-singapore-slingdeveloped-by-ngiam-tong-boon-for-the-raffles-hotel-in-singapore-in-the-early-s-136166000.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    tomCollins:
+        name: Tom Collins
+        desc:
+        abv:
+        image: http://image.shutterstock.com/display_pic_with_logo/596689/431092024/stock-photo-refreshing-classic-tom-collins-cocktail-with-a-cherry-and-lemon-slice-431092024.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    cubaLibre:
+        name: Cuba Libre
+        desc:
+        abv:
+        image: http://image.shutterstock.com/z/stock-photo-rum-and-cola-cuba-libre-with-lime-and-ice-292525172.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    darkAndStormy:
+        name: Dark and Stormy
+        desc:
+        abv:
+        image: http://image.shutterstock.com/display_pic_with_logo/596689/385915783/stock-photo-dark-and-stormy-rum-cocktail-with-lime-and-ginger-beer-385915783.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    daiquiri:
+        name: Daiquiri
+        desc:
+        abv:
+        image: http://image.shutterstock.com/display_pic_with_logo/596689/442299679/stock-photo-classic-lime-daiquiri-cocktail-with-a-garnish-442299679.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    hotbutteredRum:
+        name: Hot Buttered Rum
+        desc:
+        abv:
+        image: http://image.shutterstock.com/display_pic_with_logo/596689/232203649/stock-photo-homemade-hot-buttered-rum-for-the-holidays-232203649.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    maiTai:
+        name: Mai Tai
+        desc:
+        abv:
+        image: http://image.shutterstock.com/display_pic_with_logo/596689/449441356/stock-photo-homemade-mai-tai-cocktail-with-pineapple-cherry-and-rum-449441356.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    pinaColada:
+        name: Pina Colada
+        desc:
+        abv:
+        image: http://image.shutterstock.com/display_pic_with_logo/55199/253579411/stock-photo-pina-colada-over-wooden-background-garnished-pineapple-253579411.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    planter:
+        name: Planter's Punch
+        desc:
+        abv:
+        image: http://image.shutterstock.com/display_pic_with_logo/1340188/281007914/stock-photo-fruit-cocktail-glass-at-pool-vintage-filter-effect-281007914.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    zombie:
+        name: Zombie
+        desc:
+        abv:
+        image: http://image.shutterstock.com/z/stock-photo-orange-cocktail-decorated-with-lime-slice-and-ice-344831645.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    margarita:
+        name: Margarita
+        desc:
+        abv:
+        image: http://image.shutterstock.com/z/stock-photo-cocktail-garnished-with-lime-standing-on-the-bar-counter-407417668.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    tequilaSunrise:
+        name: Tequila Sunrise
+        desc:
+        abv:
+        image: http://image.shutterstock.com/display_pic_with_logo/596689/431091286/stock-photo-juicy-orange-and-red-tequila-sunrise-with-a-cherry-431091286.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    kamikaze:
+        name: Kamikaze
+        desc:
+        abv:
+        image: http://image.shutterstock.com/display_pic_with_logo/2181341/435490393/stock-photo-cocktail-margarita-with-lime-435490393.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    mudslide:
+        name: Mudslide
+        desc:
+        abv:
+        image: http://image.shutterstock.com/display_pic_with_logo/563860/134644979/stock-photo-chocolate-mudslide-drink-with-chocolate-and-strawberry-syrup-swirls-on-a-red-and-black-background-134644979.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    screwdriver:
+        name: Screwdriver
+        desc:
+        abv:
+        image: http://image.shutterstock.com/display_pic_with_logo/496000/137086268/stock-photo-screw-driver-orange-cocktail-i-a-disco-setting-137086268.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    seaBreeze:
+        name: Sea Breeze
+        desc:
+        abv:
+        image: http://image.shutterstock.com/z/stock-photo-freshly-made-red-cocktail-with-a-slice-of-lemon-182961863.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    sexOntheBeach:
+        name: Sex On The Beach
+        desc:
+        abv:
+        image: http://image.shutterstock.com/display_pic_with_logo/627613/138399266/stock-photo-sex-on-the-beach-cocktail-served-on-a-bar-garnished-with-a-pineapple-slice-138399266.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    vodkaTonic:
+        name: Vodka and Tonic
+        desc:
+        abv:
+        image: http://image.shutterstock.com/display_pic_with_logo/4271749/452504773/stock-photo-cold-cocktail-with-lime-tonic-vodka-and-ice-on-dark-background-452504773.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    vodkaGimlet:
+        name: Vodka Gimlet
+        desc:
+        abv:
+        image: http://image.shutterstock.com/display_pic_with_logo/596689/456568477/stock-photo-alcoholic-lime-and-gin-gimlet-with-a-garnish-456568477.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    vodkaMartini:
+        name: Vodka Martini
+        desc:
+        abv:
+        image: http://image.shutterstock.com/z/stock-photo-classic-shaken-dry-vodka-martini-with-olives-399524002.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    vodkaRedBull:
+        name: Vodka Red Bull
+        desc:
+        abv:
+        image: http://image.shutterstock.com/display_pic_with_logo/596689/286675955/stock-photo-refreshing-golden-ginger-beer-with-lime-and-mint-286675955.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    whiteRussian:
+        name: White Russian
+        desc:
+        abv:
+        image: http://image.shutterstock.com/display_pic_with_logo/184204/134454347/stock-photo-white-russian-cocktail-on-the-background-of-the-bar-134454347.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    hotToddy:
+        name: Hot Toddy
+        desc:
+        abv:
+        image: http://image.shutterstock.com/display_pic_with_logo/596689/346468967/stock-photo-warm-hot-toddy-with-lemon-bourbon-and-spices-346468967.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    irishCoffee:
+        name: Irish Coffee
+        desc:
+        abv:
+        image: http://image.shutterstock.com/display_pic_with_logo/627613/148838552/stock-photo-closeup-of-an-irish-coffee-saved-on-a-dark-bar-with-a-float-of-heavy-cream-148838552.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    jackAndCoke:
+        name: Jack and Coke
+        desc:
+        abv:
+        image: http://image.shutterstock.com/display_pic_with_logo/3211682/400869430/stock-photo-rum-cocktail-in-a-glass-with-ice-lime-mint-bread-on-a-wooden-table-400869430.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    lynchburgLemonade:
+        name: Lynchburg Lemonade
+        desc:
+        abv:
+        image: http://image.shutterstock.com/display_pic_with_logo/436129/435855829/stock-photo-glass-of-delicious-alcoholic-cocktails-lynchburg-lemonade-with-ice-and-a-slice-lemon-on-table-in-435855829.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    manhattan:
+        name: Manhattan
+        desc:
+        abv:
+        image: http://image.shutterstock.com/display_pic_with_logo/596689/406171897/stock-photo-homemade-rye-bourbon-manhattan-with-a-cherry-garnish-406171897.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    mintJulep:
+        name: Mint Julep
+        desc:
+        abv:
+        image: http://image.shutterstock.com/display_pic_with_logo/596689/147553406/stock-photo-homemade-gourmet-fresh-mint-julep-alcoholic-cocktail-147553406.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    oldFashioned:
+        name: Old Fashioned
+        desc:
+        abv:
+        image: http://image.shutterstock.com/display_pic_with_logo/596689/274311413/stock-photo-homemade-old-fashioned-cocktail-274311413.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    whiskeySour:
+        name: Whiskey Sour
+        desc:
+        abv:
+        image: http://image.shutterstock.com/display_pic_with_logo/596689/421470466/stock-photo-homemade-whiskey-sour-cocktail-drink-with-a-cherry-lemon-421470466.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    b52:
+        name: B52
+        desc:
+        abv:
+        image: http://image.shutterstock.com/display_pic_with_logo/465874/465874,1253816653,1/stock-photo-flaming-b-the-top-layer-is-ignited-producing-a-blue-flame-37634584.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    brandyAlex:
+        name: Brandy Alexander
+        desc:
+        abv:
+        image: http://image.shutterstock.com/display_pic_with_logo/627613/137832206/stock-photo-classic-cocktail-brandy-alexander-served-on-the-rocks-isolated-on-black-137832206.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    electricLemonade:
+        name: Electric Lemonade
+        desc:
+        abv:
+        image: http://image.shutterstock.com/display_pic_with_logo/137002/317176706/stock-photo-cocktail-on-bar-counter-on-bar-background-317176706.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    harveyWallbanger:
+        name: Harvey Wallbanger
+        desc:
+        abv:
+        image: http://image.shutterstock.com/display_pic_with_logo/67022/295507460/stock-photo-harvey-wallbanger-cocktails-shot-on-a-bar-counter-in-a-nightclub-295507460.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    kirRoyale:
+        name: Kir Royale
+        desc:
+        abv:
+        image: http://image.shutterstock.com/display_pic_with_logo/7430/7430,1154540270,2/stock-photo-focused-kir-royal-cocktail-with-slightly-blurry-aerial-view-of-london-1629240.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    longIcelandIcedTea:
+        name: Long Iceland Iced Tea
+        desc:
+        abv:
+        image: http://image.shutterstock.com/z/stock-photo-long-island-iced-tea-261712124.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    melonBall:
+        name: Melon Ball
+        desc:
+        abv:
+        image: http://image.shutterstock.com/display_pic_with_logo/137002/262246742/stock-photo-green-cocktail-on-table-on-dark-background-262246742.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    amaretto:
+        name: Amaretto
+        desc:
+        abv:
+        image: http://image.shutterstock.com/display_pic_with_logo/3010022/366777263/stock-photo-italian-amaretto-liqueur-with-dry-almonds-on-the-old-wooden-background-selective-focus-366777263.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    metropolitan:
+        name: Metropolitan
+        desc:
+        abv:
+        image: http://image.shutterstock.com/display_pic_with_logo/463120/463120,1293440333,1/stock-photo-alcohol-drinking-metropolitan-pink-cocktail-with-vodka-triple-sec-red-cranberry-juice-lime-and-67838758.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    blueCuracao:
+        name: Blue Curacao
+        desc:
+        abv:
+        image: http://image.shutterstock.com/display_pic_with_logo/1102043/276176186/stock-photo-blue-curacao-cocktail-with-276176186.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    chocolateMartini:
+        name: Chocolate Martini
+        desc:
+        abv:
+        image: http://image.shutterstock.com/display_pic_with_logo/1032235/318617858/stock-photo-chocolate-martini-cocktail-made-from-chocolate-cream-and-vodka-318617858.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    limoncelloMartini:
+        name: Limoncello Martini
+        desc:
+        abv:
+        image: http://image.shutterstock.com/display_pic_with_logo/1059122/336131924/stock-photo-limoncello-martini-cocktail-prepared-at-the-bar-336131924.jpg
+        licence:
+        tags: |
+            #cocktail
+
+    ###food
+    fishNChips:
+        name: Fish and Chips
+        desc:
+        image: http://image.shutterstock.com/z/stock-photo-fish-and-chips-114327076.jpg
+        licence:
+        tags: |
+            #food
+            #lunch
+            #dinner
+            #fishNchips
+
+    beefBurger:
+        name: Beef Burger
+        desc:
+        image: http://image.shutterstock.com/z/stock-photo-tasty-and-appetizing-hamburger-cheeseburger-255114436.jpg
+        licence:
+        tags: |
+            #food
+            #lunch
+            #dinner
+            #burger
+            #beef
+
+    chickenBurger:
+        name: Chicken Burger
+        desc:
+        image: http://image.shutterstock.com/z/stock-photo-sandwich-with-chicken-burger-tomatoes-cheese-and-lettuce-285354206.jpg
+        licence:
+        tags: |
+            #food
+            #lunch
+            #dinner
+            #chicken
+
+
+    vegBurger:
+        name: Vegetables Burger
+        desc:
+        image: http://image.shutterstock.com/z/stock-photo-organic-grilled-black-bean-burger-with-tomato-and-lettuce-162649631.jpg
+        licence:
+        tags: |
+            #food
+            #lunch
+            #dinner
+            #vegetables
+
+    fishBurger:
+        name: Fish Burger
+        desc:
+        image: http://image.shutterstock.com/z/stock-photo-fresh-fish-burger-with-vegetables-146868617.jpg
+        licence:
+        tags: |
+            #food
+            #lunch
+            #dinner
+            #fish
+
+    pepperoniPizza:
+        name: Pepperoni Pizza
+        desc:
+        image: http://image.shutterstock.com/z/stock-photo-hot-homemade-pepperoni-pizza-ready-to-eat-225746563.jpg
+        licence:
+        tags: |
+            #food
+            #lunch
+            #dinner
+
+
+    chickenPizza:
+        name: Chicken Pizza
+        desc:
+        image: http://image.shutterstock.com/z/stock-photo-pizza-with-chicken-breast-pineapple-and-mozzarella-cheese-139878181.jpg
+        licence:
+        tags: |
+            #food
+            #lunch
+            #dinner
+
+    theRevolutionBurger:
+        name: The Revolution Burger
+        desc:
+        image: http://image.shutterstock.com/z/stock-photo-double-hamburger-348803723.jpg
+        licence:
+        tags: |
+            #food
+            #lunch
+            #dinner
+            #burger
+
+    chickenNHoumousSandwich:
+        name: Chicken and Houmous Sandwich
+        desc:
+        image: http://image.shutterstock.com/z/stock-photo-grilled-blt-bacon-lettuce-and-tomato-sandwiches-with-chicken-and-avocado-173394518.jpg
+        licence:
+        tags: |
+            #food
+            #lunch
+            #dinner
+
+    fishFingerBap:
+        name: Fish Finger Bap
+        desc: Fish finger sandwich
+        image: http://image.shutterstock.com/z/stock-photo-fresh-made-snack-sandwich-with-fish-sticks-on-an-old-wooden-table-470435486.jpg
+        licence:
+        tags: |
+            #food
+            #lunch
+            #dinner
+
+    hogRoastSandwich:
+        name: Hog Roast Sandwich
+        desc:
+        image: http://image.shutterstock.com/z/stock-photo-barbeque-pulled-pork-sandwich-with-bbq-sauce-and-fries-176142812.jpg
+        licence:
+        tags: |
+            #food
+            #lunch
+            #dinner
+
+    brisketSandwich:
+        name: Brisket Sandwich
+        desc:
+        image: http://image.shutterstock.com/z/stock-photo-smoked-barbecue-brisket-sandwich-with-coleslaw-and-bake-beans-188811005.jpg
+        licence:
+        tags: |
+            #food
+            #lunch
+            #dinner
+
+    chickenPie:
+        name: Chicken Pie
+        desc:
+        image: http://image.shutterstock.com/z/stock-photo-american-chicken-pot-pie-in-the-baking-dish-on-the-table-horizontal-view-from-above-346680863.jpg
+        licence:
+        tags: |
+            #food
+            #lunch
+            #dinner
+            #chicken
+
+    beefPie:
+        name: Beef Pie
+        desc:
+        image: http://image.shutterstock.com/z/stock-photo-meat-pie-308475593.jpg
+        licence:
+        tags: |
+            #food
+            #lunch
+            #dinner
+            #beef
+
+    chickenSalad:
+        name: Chicken Salad
+        desc:
+        image: http://image.shutterstock.com/z/stock-photo-delicious-salad-with-chicken-nuts-egg-and-vegetables-318379043.jpg
+        licence:
+        tags: |
+            #food
+            #lunch
+            #dinner
+
+    risotto:
+        name: Butternut Squash Risotto
+        desc:
+        image: http://image.shutterstock.com/z/stock-photo-risotto-with-pumpkin-in-a-bowl-on-the-table-horizontal-top-view-375451807.jpg
+        licence:
+        tags: |
+            #food
+            #lunch
+            #dinner
+            #butternut
+            #risotto
+
+    porkRibs:
+        name: Pork Ribs
+        desc:
+        image: http://image.shutterstock.com/z/stock-photo-grilled-pork-ribs-on-the-grill-138696521.jpg
+        licence:
+        tags: |
+            #food
+            #lunch
+            #dinner
+            #pork
+            #ribs
+
+    porkChops:
+        name: Pork Chops
+        desc:
+        image: http://image.shutterstock.com/z/stock-photo-grilled-pork-chop-with-vegetable-on-wooden-board-333968498.jpg
+        licence:
+        tags: |
+            #food
+            #lunch
+            #dinner
+            #porkChops
+            #pork
+
+    shepherdPie:
+        name: Shepherd's Pie
+        desc:
+        image: http://image.shutterstock.com/z/stock-photo-cottage-pie-in-the-red-stoneware-baker-70378240.jpg
+        licence:
+        tags: |
+            #food
+            #lunch
+            #dinner
+
+    chickenKorma:
+        name: Chicken Korma with Rice
+        desc:
+        image: http://image.shutterstock.com/z/stock-photo-curry-chicken-with-basmati-rice-delicious-and-spicy-food-fresh-herbs-very-simple-to-make-379659331.jpg
+        licence:
+        tags: |
+            #food
+            #lunch
+            #dinner
+
+    RedThai:
+        name: Red Thai Curry
+        desc:
+        image: http://image.shutterstock.com/z/stock-photo-spicy-chicken-curry-with-rice-popular-thai-food-293693651.jpg
+        licence:
+        tags: |
+            #food
+            #lunch
+            #dinner
+
+    chickenRoast:
+        name: Chicken Roast
+        desc:
+        image: http://image.shutterstock.com/z/stock-photo-whole-roasted-chicken-93416152.jpg
+        licence:
+        tags: |
+            #food
+            #lunch
+            #dinner
+
+    greenCurry:
+        name: Green Thai Curry
+        desc:
+        image: http://image.shutterstock.com/z/stock-photo-green-curry-chicken-thai-food-top-view-378425761.jpg
+        licence:
+        tags: |
+            #food
+            #lunch
+            #dinner
+
+    caesarSalad:
+        name: Caesar Chicken Salad
+        desc:
+        image: http://image.shutterstock.com/z/stock-photo-salad-bowl-chicken-372789682.jpg
+        licence:
+        tags: |
+            #food
+            #dinner
+            #Salad
+            #chicken
+
+
+
+
+    ###snacks
+
+    chipCheeseGravy:
+        name: Chips, Cheese and Gravy
+        desc:
+        image: http://image.shutterstock.com/z/stock-photo-nachos-with-guacamole-tortilla-chips-in-sombrero-plate-and-sauces-423022297.jpg
+        desc: shutterstock
+        tags: |
+            #snacks
+            #starter
+
+    hotWings:
+        name: Hot Wings
+        desc:
+        image: http://image.shutterstock.com/z/stock-photo-buffalo-chicken-wings-with-cayenne-pepper-sauce-served-hot-with-celery-sticks-and-carrot-sticks-247452709.jpg
+        desc: shutterstock
+        tags: |
+            #snacks
+            #starter
+
+    peelNshrimp:
+        name: Peel-n-eat Shrimp
+        desc:
+        image: http://image.shutterstock.com/z/stock-photo-peeled-raw-shrimps-on-a-wooden-cutting-board-with-salt-pepper-lime-on-a-rustic-table-297477206.jpg
+        desc: shutterstock
+        tags: |
+            #snacks
+            #starter c
+
+    popcorn:
+        name: Popcorn
+        desc:
+        image: http://image.shutterstock.com/z/stock-photo-salt-popcorn-on-the-wooden-table-selective-focus-296395484.jpg
+        licence:
+        tags: |
+            #snacks
+            #starter
+
+    chickenNuggets:
+        name: Chicken Nuggets
+        desc:
+        image: http://image.shutterstock.com/z/stock-photo-homemade-crispy-popcorn-chicken-with-barbecue-sauce-266295314.jpg
+        licence:
+        tags: |
+            #snacks
+            #starter
+
+    nachos:
+        name: Nachos
+        desc:
+        image: http://image.shutterstock.com/z/stock-photo-a-plate-of-delicious-tortilla-nachos-with-melted-cheese-sauce-ground-beef-jalapeno-peppers-red-275860259.jpg
+        licence:
+        tags: |
+            #snacks
+            #starter
+
+    porkNAppleSausage:
+        name: Pork and Apple Sausage Roll
+        desc:
+        image: http://image.shutterstock.com/z/stock-photo-sausage-roll-delicious-recepy-from-mushrooms-czech-hogkilling-sausage-and-puff-pastry-351620351.jpg
+        licence:
+        tags: |
+            #snacks
+            #starter
+
+    meatSticks:
+        name: Meat Sticks
+        desc:
+        image: http://image.shutterstock.com/z/stock-photo-beef-sticks-sausages-on-a-paper-background-426413830.jpg
+        licence:
+        tags: |
+            #snacks
+            #starter
+
+    cheeseBoard:
+        name: Cheese Board
+        desc:
+        image: http://image.shutterstock.com/z/stock-photo-cheese-plate-187278551.jpg
+        licencei:
+        tags: |
+            #snacks
+            #starter
+
+    mozzarellaSticks:
+        name: Mozzarella Sticks
+        desc:
+        image: http://image.shutterstock.com/z/stock-photo-delicious-breaded-mozzarella-cheese-sticks-with-marinara-dipping-sauce-275339186.jpg
+        licence:
+        tags: |
+            #snacks
+            #starter
+
+
+
+    # longIslandIceTea:
+    #     name: Long Island Ice Tea
+    #     image: https://pixabay.com/en/cocktail-drink-martini-drinks-1548905/
+
+
+menuOptions:
+    beerTopOptions:
+        optionList:
+            - tops
+            - shandy
+            - lime
+            - blackcurrant
+        optionPrices:
+            - 0.0
+            - 0.0
+            - 0.0
+            - 0.50
+
+menu:
+    beer:
+        defaultOptions:
+            - beerTopOptions
+
+        guiness:
+            tap: yes
+            prices:
+                pint: 3.40
+                half-pint: 2.60
+
+        heineken:
+            prices:
+                pint: 3.20
+                half-pint: 2.30
+
+        rockBottom:
+            prices:
+                pint: 4.20
+                half-pint: 3.40
+
+    wine:
+        poggio:
+            house: yes
+            prices:
+                small: 2.70
+                medium: 3.50
+                large: 4.20
+                bottle: 24.00
+
+        canaletto:
+            prices:
+                glass: 5.20
+                small-glass: 4.30
+                bottle: 28.00

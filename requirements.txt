@@ -1,0 +1,11 @@
+pyyaml
+gevent
+rethinkdb
+dateutils
+flask
+Flask-Sockets
+Flask-uWSGI-WebSocket
+uwsgi
+websocket-client
+wsaccel
+ujson
